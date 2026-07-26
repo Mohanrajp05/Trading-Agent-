@@ -6,5 +6,5 @@ title: Agent Week 6
 emoji: 📈
 colorFrom: yellow
 colorTo: gray
-sdk: static
+sdk: docker
 pinned: false
