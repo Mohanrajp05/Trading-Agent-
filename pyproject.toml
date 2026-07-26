@@ -1,0 +1,19 @@
+[project]
+name = "mcp-trading-floor"
+version = "0.1.0"
+description = "MCP Trading Floor - Week 6"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp",
+    "pydantic",
+    "python-dotenv",
+    "massive",
+    "requests",
+    "openai",
+    "openai-agents",
+    "fastapi",
+    "uvicorn",
+    "gradio>=6.20.0",
+    "pandas>=3.0.5",
+    "plotly>=6.9.0",
+]

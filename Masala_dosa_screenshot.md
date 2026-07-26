@@ -1,0 +1,1359 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=e4]:
+      - generic [ref=e12]:
+        - link [ref=e16] [cursor=pointer]:
+          - /url: https://www.indianhealthyrecipes.com/
+          - img "Swasthis Recipes" [ref=e17]
+        - generic [ref=e18]:
+          - navigation "Primary" [ref=e20]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Home" [ref=e24] [cursor=pointer]:
+                  - /url: https://www.indianhealthyrecipes.com/
+              - listitem [ref=e25]:
+                - link "Recipes" [ref=e26] [cursor=pointer]:
+                  - /url: https://www.indianhealthyrecipes.com/recipes/
+              - listitem [ref=e27]:
+                - link "About" [ref=e28] [cursor=pointer]:
+                  - /url: https://www.indianhealthyrecipes.com/about/
+          - button "View Search Form" [ref=e31] [cursor=pointer]
+    - main [ref=e34]:
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - article [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - generic [ref=e43]:
+                  - link "Home" [ref=e45] [cursor=pointer]:
+                    - /url: https://www.indianhealthyrecipes.com/
+                  - text: ">>"
+                  - link "Recipes" [ref=e47] [cursor=pointer]:
+                    - /url: https://www.indianhealthyrecipes.com/recipes/
+                  - text: ">>"
+                  - link "Indian Breakfast Recipes" [ref=e49] [cursor=pointer]:
+                    - /url: https://www.indianhealthyrecipes.com/recipes/indian-breakfast/
+                - heading "Masala Dosa Recipe" [level=1] [ref=e50]
+                - generic [ref=e54]:
+                  - paragraph [ref=e55]:
+                    - text: "Updated: June 10, 2023, By"
+                    - link "Swasthi Shreekanth" [ref=e56] [cursor=pointer]:
+                      - /url: https://www.indianhealthyrecipes.com/about/
+                  - generic [ref=e57]:
+                    - button "Rate this recipe 1 out of 5 stars" [ref=e58] [cursor=pointer]
+                    - button "Rate this recipe 2 out of 5 stars" [ref=e62] [cursor=pointer]
+                    - button "Rate this recipe 3 out of 5 stars" [ref=e66] [cursor=pointer]
+                    - button "Rate this recipe 4 out of 5 stars" [ref=e70] [cursor=pointer]
+                    - button "Rate this recipe 5 out of 5 stars" [ref=e74] [cursor=pointer]
+                    - generic [ref=e78]: 5 from 321 votes
+                  - paragraph
+              - generic [ref=e79]:
+                - paragraph [ref=e80]:
+                  - strong [ref=e81]: Masala Dosa Recipe
+                  - text: – Make perfect, aromatic and great masala dosas at home with this video and step by step recipe post. Masala Dosa is one of the most popular South Indian breakfast dishes served in restaurants and tiffin centres.
+                  - link "Dosa is a crepe" [ref=e82] [cursor=pointer]:
+                    - /url: https://www.indianhealthyrecipes.com/dosa-recipe-dosa-batter/
+                  - text: made using fermented rice and lentil batter. Masala Dosa is one that is crisp, aromatic, flavourful and has a potato masala or spiced seasoned potatoes stuffed in it.
+                - figure [ref=e84]:
+                  - generic [ref=e86]:
+                    - generic [ref=e89]:
+                      - generic [ref=e90]:
+                        - generic [ref=e94]: 21.3K
+                        - generic [ref=e95]: shares
+                      - list [ref=e96]:
+                        - listitem [ref=e97]:
+                          - link "Share on Facebook" [ref=e98] [cursor=pointer]:
+                            - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fmasala-dosa-recipe%2F%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dhubbub-pro&t=Masala%20Dosa%20Recipe%20%28Restaurant%20Style%29%20-%20Swasthi%26%23039%3Bs%20Recipes
+                        - listitem [ref=e103]:
+                          - link "Share on WhatsApp" [ref=e104] [cursor=pointer]:
+                            - /url: https://wa.me/?text=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fmasala-dosa-recipe%2F%3Futm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3Dhubbub-pro+Masala%20Dosa%20Recipe%20%28Restaurant%20Style%29%20-%20Swasthi%26%23039%3Bs%20Recipes
+                        - listitem [ref=e109]:
+                          - link "Share on Reddit" [ref=e110] [cursor=pointer]:
+                            - /url: https://www.reddit.com/submit?url=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fmasala-dosa-recipe%2F%3Futm_source%3Dreddit%26utm_medium%3Dsocial%26utm_campaign%3Dhubbub-pro&title=Masala%20Dosa%20Recipe%20%28Restaurant%20Style%29%20-%20Swasthi%26%23039%3Bs%20Recipes
+                        - listitem [ref=e115]:
+                          - button "Save to Pinterest" [ref=e116] [cursor=pointer]
+                        - listitem [ref=e121]:
+                          - button "Open all share options" [ref=e122] [cursor=pointer]
+                    - generic [ref=e128]:
+                      - paragraph [ref=e129]:
+                        - link "Jump To Recipe" [ref=e130] [cursor=pointer]:
+                          - /url: "#wprm-recipe-container-37664"
+                        - link "Jump to comments" [ref=e132] [cursor=pointer]:
+                          - /url: "#comments"
+                        - link "Jump To Video" [ref=e134] [cursor=pointer]:
+                          - /url: "#wprm-recipe-video-container-37664"
+                      - link "Add Swasthi's Recipes as a preferred source on Google" [ref=e137] [cursor=pointer]:
+                        - /url: https://google.com/preferences/source?q=https://www.indianhealthyrecipes.com/
+                        - generic: G
+                        - generic [ref=e138]: Add Swasthi’s Recipes as a preferred source on Google
+                  - generic [ref=e139]:
+                    - img "masala dosa" [ref=e140]
+                    - link "Pin It" [ref=e141] [cursor=pointer]:
+                      - /url: https://pinterest.com/pin/create/bookmarklet/?media=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fmasala-dosa.jpg&url=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fmasala-dosa-recipe%2F%3Futm_source%3Dpinterest%26utm_medium%3Dsocial%26utm_campaign%3Dhubbub-pro&is_video=false&description=masala%20dosa
+                - generic [ref=e1844]:
+                  - heading "Featured Videos" [level=3] [ref=e1845]
+                  - application "Raptive Video Player" [ref=e1847]:
+                    - generic:
+                      - generic:
+                        - button "Pause"
+                      - generic:
+                        - generic:
+                          - button "Unmute"
+                          - generic:
+                            - slider "Volume": "0"
+                      - button "Enter fullscreen"
+                    - generic [ref=e1852]: Video Muted
+                - paragraph [ref=e146]: These crispy crepes are quite addictive and delicious. No one wants to stop with one and this says how delicious they taste!
+                - heading "About Masala Dosa" [level=2] [ref=e147]
+                - paragraph [ref=e148]:
+                  - text: Masala Dosa is a popular South Indian breakfast where a crispy crepe made of fermented rice and lentil batter is served with flavorful spiced potato curry. It is a wholesome meal in itself as it is served with potato masala,
+                  - link [ref=e149] [cursor=pointer]:
+                    - /url: https://www.indianhealthyrecipes.com/coriander-coconut-chutney/
+                    - strong [ref=e150]: Coconut chutney
+                  - text: and
+                  - link [ref=e151] [cursor=pointer]:
+                    - /url: https://www.indianhealthyrecipes.com/andhra-sambar-recipe-how-to-make-south-indian-sambar/
+                    - strong [ref=e152]: Sambar
+                  - text: .
+                - paragraph [ref=e153]: "It is believed that Masala dosa originated in the Tuluva Mangalorean cuisine, from Karnataka (source: Wiki). Udupi restaurants made this toothsome and delectable food very popular all over India and now these are also popular in many countries."
+                - paragraph [ref=e154]: Most South Indian households make dosas regularly and each home has their own recipe. Making a home style masala dosa is super simple as it can be made with any plain dosa batter. You don’t even need a sambar and chutney as the potato masala itself is good enough.
+                - paragraph [ref=e155]: But making a good special restaurant style masala dosa at home needs experimenting a lot. Over the years I have experimented a lot as they are a staple in my home. I have also shared a lot of my latest tips and tricks to make those special kind of masala dosas served in South Indian restaurants.
+                - paragraph [ref=e156]: A special restaurant style masala dosa is much more flavorful than the regular crispy dosa we make at home. So the proportions of rice, dal, methi, chana dal and poha change here.
+                - paragraph [ref=e157]: The recipe to make the masala dosa batter is much different from one state to the other and from one restaurant to the other. Some places serve very thin dosas while some serve the crisp yet slightly thicker kind like the one in my pictures.
+                - paragraph [ref=e158]: These kind of masala dosas are more specific to the Udupi restaurants, MTR chain & many tiffin centres in Bangalore.
+                - paragraph [ref=e159]: Apart from rice, urad dal and chana dal, the most commonly used ingredients in restaurants are rice flour, semolina, chiroti rava and some even use all-purpose flour & sabudana. All of these contribute to the flavour and crisp texture.
+                - paragraph [ref=e160]: So there is no one formula or recipe to make perfect masala dosas. But there are a lot of tips and tricks that will help you make them great – aromatic, golden and crisp.
+                - paragraph [ref=e161]:
+                  - text: For more
+                  - link [ref=e162] [cursor=pointer]:
+                    - /url: https://www.indianhealthyrecipes.com/recipes/indian-breakfast/
+                    - strong [ref=e163]: Breakfast recipes
+                  - text: ", you can check"
+                  - strong [ref=e164]:
+                    - link "Rava idli" [ref=e165] [cursor=pointer]:
+                      - /url: https://www.indianhealthyrecipes.com/rava-idli-recipe/
+                    - link "Poori recipe" [ref=e166] [cursor=pointer]:
+                      - /url: https://www.indianhealthyrecipes.com/poori-recipe-puri-recipe/
+                    - link "Idli recipe" [ref=e167] [cursor=pointer]:
+                      - /url: https://www.indianhealthyrecipes.com/soft-idli-recipe-using-idli-rava/
+                    - link "Pesarattu" [ref=e168] [cursor=pointer]:
+                      - /url: https://www.indianhealthyrecipes.com/andhra-pesarattu-whole-moong-dosa/
+                - paragraph [ref=e170]:
+                  - strong [ref=e171]: Photo Guide
+                - heading "How to Make Masala Dosa (stepwise pictures)" [level=2] [ref=e172]
+                - heading "Prepare and Make the Batter" [level=3] [ref=e173]
+                - paragraph [ref=e174]: 1. Add half cup urad dal, 3 tablespoons chana dal and half teaspoon methi seeds to a large pot or bowl. Also measure 3 tablespoons poha and set aside. Wash and soak it just 30 mins before blending the batter.
+                - figure [ref=e176]:
+                  - img "measuring urad dal poha to make masala dosa" [ref=e177]
+                - paragraph [ref=e178]: 2. Also measure 1½ cups raw rice & ½ cups idli rice (optional). You can also use only raw rice. Add them to another large bowl.
+                - paragraph [ref=e179]: 3. Wash and soak them separately for 4 to 5 hours.
+                - figure [ref=e181]:
+                  - img "soaking dal rice for masala dosa" [ref=e182]
+                - paragraph [ref=e184]: 4. Drain water from dal. Add dal and poha to a blender jar with 1¼ cup water and salt as needed. You can skip salt if you live in a hot place. Without adding salt, my batter doesn’t ferment. So I use while blending.
+                - figure [ref=e186]:
+                  - img "blending dal poha to make masala dosa batter" [ref=e187]
+                - paragraph [ref=e188]: 5. Blend them to a batter that is frothy and bubbly. The batter must not be very thick or very runny at this stage.
+                - figure [ref=e190]:
+                  - img "frothy dal batter to make masala dosa" [ref=e191]
+                - paragraph [ref=e192]: 6. Transfer that to a bowl. Use glass or ceramic bowls if you live in a hot place. This prevents the batter from turning sour.
+                - paragraph [ref=e193]: 7. Blend rice with half cup water to a slightly coarse (fine semolina texture) or a smooth batter to suit your liking. If you have a small blender then blend the rice in 2 batches.
+                - figure [ref=e195]:
+                  - img "blending rice to make masala dosa batter" [ref=e196]
+                - paragraph [ref=e198]: 8. If needed pour another ¼ cup water.
+                - figure [ref=e200]:
+                  - img "mixing" [ref=e201]
+                - paragraph [ref=e202]: 9. Pour that as well to the bowl with dal batter.
+                - paragraph [ref=e203]: 10. Mix everything well.
+                - figure [ref=e205]:
+                  - img "mixing rice dal batter to make masala dosa" [ref=e206]
+                - paragraph [ref=e207]: 11. Cover and allow to ferment in a warm place for 6 to 16 hours depending on your climate or temperature.
+                - figure [ref=e209]:
+                  - img "fermenting masala dosa batter for 6 hours" [ref=e210]
+                - heading "Ferment Masala Dosa Batter" [level=3] [ref=e212]
+                - paragraph [ref=e213]: 12. Cover the batter & keep it in a warm place to ferment until the batter rises and turns slightly bubbly. If you live in a warm place, leave it on the counter overnight. It may take anywhere from 5 to 16 hours depending on the temperature.
+                - paragraph [ref=e214]: If you live in a colder regions, preheat the oven at the lowest setting 120 F or 50 C for 10 mins. Turn off the oven and keep the batter inside. If the climate is too cold, after heating the oven, turn ON the oven light. You can also use your instant pot to ferment with the yogurt settings. Use an external lid and not the IP lid.
+                - paragraph [ref=e215]: I ferment it for 6 to 7 hours in my oven or in the Instant pot for 6 hours. Do not over ferment the batter as we don’t want very airy batter here. This picture was shot long time ago when I would ferment for 12 hours at 24 C indoor temp.
+                - paragraph [ref=e216]:
+                  - strong [ref=e217]: Fermentation test
+                  - text: ": To check if the masala dosa batter is fermented well, drop half a spoon of this batter into a bowl filled with water. Well fermented batter will float & not sink."
+                - figure [ref=e219]:
+                  - img "fermented masala dosa batter" [ref=e220]
+                - heading "Make Potato Masala for dosa" [level=3] [ref=e221]
+                - paragraph [ref=e222]: 13. The next morning, steam or boil potatoes without making them mushy. You can steam them over a pressure cooker. Or Add peeled and diced potatoes to a bowl and pour water to partially cover them. Place it in the pressure cooker and let it whistle thrice. While the potatoes boil, soak 1 teaspoon chana dal & 1 teaspoon urad dal in little hot water for 30 minutes so they soften. Drain the water and keep aside before using in the next step.
+                - figure [ref=e224]:
+                  - img "steamed potatoes for masala dosa" [ref=e225]
+                - paragraph [ref=e226]: 14. Heat a pan with 1 tbsp oil. Saute ½ tsp cumin, ¾ tsp mustard seeds, 1 tsp chana dal and 1 tsp urad dal. I used yellow mustard since I was running out of stock. When the dals turn golden, add hing.
+                - paragraph [ref=e227]: 15. Add grated ginger and saute until the aroma comes out.
+                - figure [ref=e229]:
+                  - img "frying ginger for masala dosa stuffing" [ref=e230]
+                - paragraph [ref=e232]: 16. Add sliced onions, slit or chopped green chilies and curry leaves.
+                - paragraph [ref=e233]: 17. Saute until the onions turn lightly golden.
+                - figure [ref=e235]:
+                  - img "golden fried onions" [ref=e236]
+                - paragraph [ref=e237]: 18. Crumble the potatoes and add them along with turmeric and salt.
+                - figure [ref=e239]:
+                  - img "addition of crumbled potatoes" [ref=e240]
+                - paragraph [ref=e241]: 19. Add 2 tbsps of potato steamed water or fresh water. If your potatoes have turned mushy, just skip the water here.
+                - paragraph [ref=e242]:
+                  - text: 20. Saute very well for 2 mins and add chopped coriander leaves. Set this aside. If you prefer to have a chutney as well, you can try one from this
+                  - link [ref=e243] [cursor=pointer]:
+                    - /url: https://www.indianhealthyrecipes.com/coriander-coconut-chutney/
+                    - strong [ref=e244]: coconut chutney post
+                  - text: . You may also like this
+                  - link [ref=e245] [cursor=pointer]:
+                    - /url: https://www.indianhealthyrecipes.com/idli-sambar-recipe-tiffin-sambar/
+                    - strong [ref=e246]: tiffin sambar recipe
+                  - text: .
+                - figure [ref=e248]:
+                  - img "addition of coriander leaves" [ref=e249]
+                - heading "Make the Masala Dosa" [level=3] [ref=e251]
+                - paragraph [ref=e252]: 21. Bring the masala dosa batter to the right consistency by adding some water. Batter must be of a thick pouring consistency as you see in the picture. To get brown dosas you can also try adding one tsp of powdered sugar. This doesn’t work for me but restaurants do add a bit of sugar.
+                - paragraph [ref=e253]: 22. Heat your pan on a medium heat. If using cast iron pan, drizzle a few drops of oil and rub it all over with a cut onion.
+                - paragraph [ref=e254]: When the pan is hot enough, stir the batter in the bowl and take a ladle of batter. Pour it in the center of the hot pan.
+                - figure [ref=e256]:
+                  - img "pouring batter on tawa to make masala dosa" [ref=e257]
+                - paragraph [ref=e258]: 23. Immediately begin to spread the batter from the center moving your hand in clockwise direction, making circles until you reach the edges. Refer video for the method. You can thin or thick dosas with this batter. Add 1/4 to 1/2 tsp butter or oil around the edges.
+                - figure [ref=e260]:
+                  - img "spreading batter" [ref=e261]
+                - paragraph [ref=e262]: 24. When it turns slightly brown and well cooked. Flip it and cook on the other side. Flip it back and cook it until the masala dosa turns golden to light brown. You can even get dark brown dosas with this batter. Just put the flame medium high when it is half cooked. Place the potato masala on one half of the dosa.
+                - figure [ref=e264]:
+                  - img "stuffing potato" [ref=e265]
+                - paragraph [ref=e267]: 25. If making mysore masala dosa, please follow the recipe card above to make red chutney. Smear the chutney as desired and then place the potato curry. Either roll it or just fold it.
+                - figure [ref=e269]:
+                  - img "mysore masala dosa" [ref=e270]
+                - paragraph [ref=e271]:
+                  - text: Serve crispy masala dosa hot with
+                  - strong [ref=e272]:
+                    - link "coconut chutney" [ref=e273] [cursor=pointer]:
+                      - /url: https://www.indianhealthyrecipes.com/coriander-coconut-chutney/
+                  - text: or
+                  - strong [ref=e274]:
+                    - link "tiffin sambar" [ref=e275] [cursor=pointer]:
+                      - /url: https://www.indianhealthyrecipes.com/idli-sambar-recipe-tiffin-sambar/
+                  - text: .
+                - figure [ref=e277]:
+                  - img "masala dosa recipe" [ref=e278]
+                - heading "Faqs" [level=2] [ref=e279]
+                - generic [ref=e280]:
+                  - generic [ref=e281]:
+                    - strong [ref=e282]: What is masala in masala dosa?
+                    - paragraph [ref=e283]: Masala is the spiced potato stuffing which is made by tempering boiled potatoes in spices and herbs. It is also known as aloo masala or dosa masala.
+                  - generic [ref=e284]:
+                    - strong [ref=e285]: Is masala dosa unhealthy?
+                    - paragraph [ref=e286]: Homemade masala dosas, If eaten in moderation are healthy. But masala dosas served in restaurants, hotels and street sides are loaded with calories as there is a lot of butter and high carb ingredients like refined flour are added to some versions. Also more rice is used.
+                  - generic [ref=e287]:
+                    - strong [ref=e288]: How to make masala dosa healthy?
+                    - paragraph [ref=e289]: There are numerous ways to cut down on the carbs in this recipe, reduce the amount of rice to 1.5 cups in the recipe or use 1 part brown rice with 2 parts white rice. You may also add a portion of millets and 2 portions of rice. Also cut down the serving size of potatoes to make healthy masala dosas.
+                - heading "Pro tips" [level=2] [ref=e290]
+                - heading "Tips to make golden & crispy masala dosa" [level=3] [ref=e291]
+                - paragraph [ref=e292]: More than the recipe, a perfect griddle and a stove are very crucial to make perfect masala dosas.
+                - paragraph [ref=e293]:
+                  - strong [ref=e294]: Griddle/ tawa/pan
+                  - text: ": You can make crisp dosas both on a cast iron pan and on a heavy bottom non-stick pan. But cast iron pans not only make them crisp but also impart that deep golden color & a unique aroma. If you fancy those deep golden to brown dosas then use cast iron pan. I use both, a 10 inch cast iron pan and a heavy bottom non-stick pan for making them."
+                - paragraph [ref=e295]: A normal non-stick pan won’t help you make best crisp dosas that are deep golden in color. Choose the one with a heavy-bottom, which has an extra metal layer fixed at the bottom for an even heat distribution. This is what I have used in the step wise pictures below.
+                - paragraph [ref=e296]: Restaurants use large griddles/ tawas made of iron, cast iron, soapstone and even steel. These are continuously on fire/heat for several hours so they retain the heat extremely well & make deep golden aromatic dosas without burning them. Trying to get the same at home is just impossible as we don’t heat the griddle for so long as they do.
+                - paragraph [ref=e297]:
+                  - strong [ref=e298]: Stove
+                  - text: ": Using the right kind of stove is very essential to make them the best. Use the largest burner on your stove. Ensure the heat from your stove reaches the edges of the pan so the masala dosas cook evenly all over and become golden & crisp. Most restaurants use either stoves with large burners or electric dosa makers which cook the dosas evenly all over."
+                - paragraph [ref=e299]: If you prefer to make deep golden masala dosas often at home, then it is worth to have a personalised set up in your kitchen by having a good stove with a large burner and a cast iron griddle.
+                - heading "Faqs on crisp golden masala dosas" [level=3] [ref=e300]
+                - paragraph [ref=e301]: Most of these are from the comments section of my various dosa recipe posts on the blog. Thought of answering them here as well so it helps beginners.
+                - paragraph [ref=e302]:
+                  - strong [ref=e303]: Can I make crispy dosas on a non-stick pan?
+                  - text: Yes you can make crisp dosas on a non-stick pan if it has a heavy bottom. To make crisp dosas, correct rice to dal ratio, right consistency of batter and a heavy bottom pan that heats evenly all over are the key.
+                - paragraph [ref=e304]:
+                  - strong [ref=e305]: Can I make golden dosas on a non-stick pan?
+                  - text: Yes you can if it has a heavy bottom. Toast the masala dosas on a medium heat/flame. More importantly ensure the heat/flame reaches the entire base of the pan evenly. Also using a good amount of fats – butter/oil/ghee to cook them helps.
+                - paragraph [ref=e306]:
+                  - strong [ref=e307]: How do I get deep golden to brown masala dosas on a non-stick pan?
+                  - text: A pan that is on a continuous heat for long time can make deep golden to brown masala dosas. But heating a non-stick for that long is not good. If you prefer deep golden roasted dosas then use a cast iron griddle.
+                - heading "Tips & Faqs on making batter" [level=3] [ref=e308]
+                - paragraph [ref=e309]:
+                  - strong [ref=e310]: Should I soak & blend dal and rice separately?
+                  - text: Yes it is good to soak & blend them separately. Usually methi seeds and dal are soaked and ground together as the mixture needs to be very smooth. We don’t want any bits or coarse particles of methi seeds to be left in the batter as they taste bitter. Rice is ground to a fine semolina texture which gives the extra crisp texture to the dosa.
+                - paragraph [ref=e311]: However you may soak and blend them together if you have a large jar & high speed blender.
+                - paragraph [ref=e312]:
+                  - strong [ref=e313]: "What is the ratio of rice: dal?"
+                  - text: For masala dosa recipe, normally 4:1 ratio is followed since a higher amount of chana dal is used. I also make with 3:1 ratio which I have included in the recipe notes below.
+                - paragraph [ref=e314]:
+                  - strong [ref=e315]: What kind of rice to use?
+                  - text: Most times I use only raw sona masuri rice as this what we use back home in India. Sometimes I use 3 parts of raw sona masuri rice and 1 part of parboiled or idli rice depending on the availability.
+                - paragraph [ref=e316]: You may replace parboiled rice or idli rice with raw rice but not vice versa. There are different kinds of parboiled rice and many don’t work here if you use in higher quantities.
+                - paragraph [ref=e317]: I have also made good masala dosas with aged raw basmati rice. More in the recipe card notes.
+                - paragraph [ref=e318]:
+                  - strong [ref=e319]: Can I use split urad dal?
+                  - text: Yes you can use the same amount of split urad dal
+                - paragraph [ref=e320]:
+                  - strong [ref=e321]: Why is chana dal or toor dal used?
+                  - text: Chana dal and toor dal are used for an aroma and deep golden color. You may use only chana dal if you don’t prefer toor dal.
+                - paragraph [ref=e322]:
+                  - strong [ref=e323]: Why are methi seeds & poha used?
+                  - text: Methi seeds help to reduce the rough/ tough & flaky texture of the dosas without making them too soft. Without methi and poha the dosas tend to turn flaky and hurt the mouth while you eat. It is ideal to use atleast one of them.
+                - heading "Tips & faqs on fermenting batter" [level=3] [ref=e324]
+                - paragraph [ref=e325]:
+                  - strong [ref=e326]: How long should I ferment?
+                  - text: It depends on your weather conditions. I double this recipe and transfer the batter to 2 bowls. I ferment one bowl of batter in the oven with the light ON and the other bowl in my instant pot, both for 7 hours. Fermenting in 2 different places has an advantage. If one of them over ferments, you can easily mix them to make it less airy.
+                - paragraph [ref=e327]:
+                  - strong [ref=e328]: How much should I ferment?
+                  - text: Masala dosa batter does not need too much fermentation. For idlis we ferment until the batter doubles as we want them fluffy. But for dosas, batter has to be fermented lesser. Too much fermentation will make the batter too airy, light and bubbly. You won’t be able to spread such batter properly.
+                - paragraph [ref=e329]:
+                  - strong [ref=e330]: How to know if the batter has fermented enough?
+                  - text: When fermented, the batter will rise and increase in volume. I usually fill my batter bowl to ½ and consider it to be done when it reaches to ¾ of the bowl. So you don’t really ferment it until it doubles.
+                - paragraph [ref=e331]:
+                  - strong [ref=e332]: How to store batter for longer?
+                  - text: Fermented batter stays good for 3 days in the fridge. Beyond that it begins to turn sour unless you live in a very cold place. If you do not prefer sour dosas, then refrigerate the batter without fermenting. Unfermented batter keeps good in the fridge for 3 to 4 weeks.
+                - paragraph [ref=e333]:
+                  - strong [ref=e334]: Can I use this batter for other recipes?
+                  - text: Yes use the same batter to make uttapam & paniyaram. There are many kinds of masala dosas like mysore masala dosa, schezwan masala dosa, mumbai masala dosa, chettinad chicken masala thosai etc. You can also make any of these with the same batter.
+                - paragraph [ref=e335]: I have also shared the recipe of the red chutney masala used to smear over the mysore masala dosa that’s how it is different from the normal masala dosa.
+                - heading "Tips to make, store & ferment the batter in larger quantities" [level=3] [ref=e336]
+                - paragraph [ref=e337]: Sometimes I use my wet grinder and make a large batch of dosa batter. I use this for about 3 to 4 weeks. Transfer the batter to different containers and refrigerate without fermenting.
+                - paragraph [ref=e338]: When needed I keep one of these containers out the previous evening. But this batter takes a little longer to ferment.
+                - heading "Tips for making good masala dosa" [level=3] [ref=e339]
+                - paragraph [ref=e340]:
+                  - strong [ref=e341]: "Consistency of batter:"
+                  - text: Bring the batter to the right consistency. It has to be thick, moderately dense and of pouring consistency. The batter should not be too airy and light. Usually after fermentation batter becomes thicker. So add water and bring it to the right consistency. Check the video to know the right consistency.
+                - paragraph [ref=e342]:
+                  - strong [ref=e343]: "Grease the pan:"
+                  - text: If using non-stick pan, you don’t need to grease at all. But if using a cast iron pan, heat it first then add a few drops of oil and rub it well across the pan with a cut onion.
+                - paragraph [ref=e344]:
+                  - strong [ref=e345]: "Heat the pan:"
+                  - text: Ensure the pan is hot before you pour the batter. It is best to heat a pan on a medium heat rather on a high heat.
+                - paragraph [ref=e346]:
+                  - strong [ref=e347]: "Test the heat:"
+                  - text: "Avoid this test if using a non-stick pan as it damages the coating and will warp the pan overtime. This test is only for cast iron pan: Test if your cast iron pan is hot enough by sprinkling some water. If it sizzles and water evaporate gradually, it means the pan is ready to use."
+                - paragraph [ref=e348]: Tips for spreading the batter and cooking are included in the recipe card below.
+                - heading "Troubleshooting" [level=2] [ref=e349]
+                - paragraph [ref=e350]:
+                  - strong [ref=e351]: Why does my batter clump up in the center of the pan?
+                  - text: If the pan is too hot, the batter clumps up and begins to cook as soon as you pour. You will be unable to spread it. To fix – Bring down the temperature of the pan to medium hot. It should not be extremely hot.
+                - paragraph [ref=e352]:
+                  - strong [ref=e353]: Why am I unable to spread the batter?
+                  - text: If the batter is too thick you won’t be able to spread it. Other reason can be over fermentation. Over fermented batter will be too airy and thick preventing the batter from spreading. To fix it – add little water and stir the batter very well to reduce the airy texture.
+                - paragraph [ref=e354]:
+                  - strong [ref=e355]: Why are my masala dosas soft & not crispy?
+                  - text: With the recipes shared here you will always get crisp masala dosas unless you add too much water. If the batter is too runny, then they turn soft. Try with lesser water next time. To fix try adding some rice flour and mix with your hand to break down the lumps.
+                - paragraph [ref=e356]:
+                  - strong [ref=e357]: Why is my dosa sticking to the pan?
+                  - text: If using a non-stick pan, dosas will not stick. But with cast iron pan they may stick if the pan is not greased well. Before you begin to make the dosas, heat your pan first. Add a few drops of oil over the pan. Rub it well with a cut onion. Continue to heat the pan well on a medium flame, then pour the batter & spread.
+                - paragraph [ref=e359]:
+                  - strong [ref=e360]: Related Recipes
+                - generic [ref=e362]:
+                  - generic:
+                    - generic [ref=e364]:
+                      - heading [level=3] [ref=e365]:
+                        - link "Oats Dosa Recipe" [ref=e366] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/oats-dosa-recipe-using-urad-dal-dosa-batter/
+                      - link [ref=e367] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/oats-dosa-recipe-using-urad-dal-dosa-batter/
+                        - img "oats dosa" [ref=e368]
+                    - generic [ref=e370]:
+                      - heading [level=3] [ref=e371]:
+                        - link "Rava Dosa Recipe ..." [ref=e372] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/rava-dosa/
+                      - link [ref=e373] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/rava-dosa/
+                        - img "rava dosa" [ref=e374]
+                    - generic [ref=e376]:
+                      - heading [level=3] [ref=e377]:
+                        - link "Set Dosa Recipe (..." [ref=e378] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/set-dosa-recipe/
+                      - link [ref=e379] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/set-dosa-recipe/
+                        - img "set dosa sponge dosa" [ref=e380]
+                    - generic [ref=e382]:
+                      - heading [level=3] [ref=e383]:
+                        - link "Ragi Dosa Recipe" [ref=e384] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/ragi-dosa-recipe/
+                      - link [ref=e385] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/ragi-dosa-recipe/
+                        - img "Ragi dosa made with finger millet flour" [ref=e386]
+                    - generic [ref=e388]:
+                      - heading [level=3] [ref=e389]:
+                        - link "Neer Dosa Recipe" [ref=e390] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/neer-dosa-recipe/
+                      - link [ref=e391] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/neer-dosa-recipe/
+                        - img "Neer dosa served with chutney" [ref=e392]
+                    - generic [ref=e394]:
+                      - heading [level=3] [ref=e395]:
+                        - link "Wheat Dosa | Godh..." [ref=e396] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/wheat-dosa-recipe-wheat-uttapam-step-by-step-pics/
+                      - link [ref=e397] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/wheat-dosa-recipe-wheat-uttapam-step-by-step-pics/
+                        - img "wheat dosa" [ref=e398]
+                - paragraph [ref=e399]
+                - heading "Recipe Card" [level=2] [ref=e401]
+                - generic [ref=e403]:
+                  - img "masala dosa recipe" [ref=e405]
+                  - generic [ref=e406]:
+                    - generic [ref=e408]:
+                      - heading "Masala Dosa Recipe (Restaurant Style)" [level=2] [ref=e409]
+                      - generic [ref=e410]:
+                        - text: "Author:"
+                        - link "Swasthi Shreekanth" [ref=e412] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/about/
+                    - generic [ref=e413]:
+                      - generic [ref=e414]:
+                        - generic [ref=e415]:
+                          - button "Rate this recipe 1 out of 5 stars" [ref=e416] [cursor=pointer]
+                          - button "Rate this recipe 2 out of 5 stars" [ref=e419] [cursor=pointer]
+                          - button "Rate this recipe 3 out of 5 stars" [ref=e422] [cursor=pointer]
+                          - button "Rate this recipe 4 out of 5 stars" [ref=e425] [cursor=pointer]
+                          - button "Rate this recipe 5 out of 5 stars" [ref=e428] [cursor=pointer]
+                          - generic [ref=e431]: 5 from 321 votes
+                        - link [ref=e433] [cursor=pointer]:
+                          - /url: "#"
+                        - link "Print" [ref=e435] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/wprm_print/masala-dosa-recipe-restaurant-style
+                      - generic [ref=e437]:
+                        - generic [ref=e438]:
+                          - generic [ref=e439]:
+                            - text: Prep
+                            - generic [ref=e440]:
+                              - generic [ref=e441]:
+                                - text: "10"
+                                - generic [ref=e442]: minutes
+                              - text: mins
+                          - generic [ref=e443]:
+                            - text: Cook
+                            - generic [ref=e444]:
+                              - generic [ref=e445]:
+                                - text: "1"
+                                - generic [ref=e446]: hour
+                              - text: hr
+                          - generic [ref=e447]:
+                            - text: fermenting
+                            - generic [ref=e448]:
+                              - generic [ref=e449]:
+                                - text: "10"
+                                - generic [ref=e450]: hours
+                              - text: hrs
+                          - generic [ref=e451]:
+                            - text: Total
+                            - generic [ref=e452]:
+                              - generic [ref=e453]:
+                                - text: "11"
+                                - generic [ref=e454]: hours
+                              - text: hrs
+                        - generic [ref=e456]: Masala dosa are popular South Indian rice and lentil crepes stuffed with potato masala. This post shares lots of tips & tricks to make golden, crisp and aromatic dosas. If you are a beginner check the step wise pictures or video.
+                        - generic [ref=e460]:
+                          - text: Servings
+                          - generic [ref=e461]: 20 dosas
+                  - generic [ref=e462]:
+                    - heading [level=3] [ref=e463]:
+                      - text: Ingredients
+                      - button "Hide Section" [expanded] [ref=e466] [cursor=pointer]
+                    - generic [ref=e469]:
+                      - button "Adjust servings by 1x" [ref=e470] [cursor=pointer]: 1x
+                      - button "Adjust servings by 2x" [ref=e471] [cursor=pointer]: 2x
+                      - button "Adjust servings by 3x" [ref=e472] [cursor=pointer]: 3x
+                    - generic [ref=e473]:
+                      - generic [ref=e474]:
+                        - generic [ref=e475]: For masala dosa batter
+                        - list [ref=e477]:
+                          - listitem [ref=e479]:
+                            - generic [ref=e480]:
+                              - checkbox "½ cup urad dal (skinned black gram)" [ref=e481]
+                              - generic [ref=e482]: ▢
+                            - text: ½ cup urad dal (skinned black gram)
+                          - listitem [ref=e484]:
+                            - generic [ref=e485]:
+                              - checkbox "3 tablespoon chana dal (bengal gram) (or 2 tbsps chana dal & 1 tbsp toor dal)" [ref=e486]
+                              - generic [ref=e487]: ▢
+                            - text: 3 tablespoon chana dal (bengal gram) (or 2 tbsps chana dal & 1 tbsp toor dal)
+                          - listitem [ref=e489]:
+                            - generic [ref=e490]:
+                              - checkbox "1½ cup raw sona masuri rice (refer notes)" [ref=e491]
+                              - generic [ref=e492]: ▢
+                            - text: 1½ cup raw sona masuri rice (refer notes)
+                          - listitem [ref=e494]:
+                            - generic [ref=e495]:
+                              - checkbox "½ cup idli rice (optional, can skip or substitute with raw rice)" [ref=e496]
+                              - generic [ref=e497]: ▢
+                            - text: ½ cup idli rice (optional, can skip or substitute with raw rice)
+                          - listitem [ref=e499]:
+                            - generic [ref=e500]:
+                              - checkbox "3 tablespoon poha (flattened rice)" [ref=e501]
+                              - generic [ref=e502]: ▢
+                            - text: 3 tablespoon poha (flattened rice)
+                          - listitem [ref=e504]:
+                            - generic [ref=e505]:
+                              - checkbox "½ teaspoon methi seeds (fenugreek seeds)" [ref=e506]
+                              - generic [ref=e507]: ▢
+                            - text: ½ teaspoon methi seeds (fenugreek seeds)
+                          - listitem [ref=e509]:
+                            - generic [ref=e510]:
+                              - checkbox "¾ teaspoon pink salt or non-iodized salt (or as needed)" [ref=e511]
+                              - generic [ref=e512]: ▢
+                            - text: ¾ teaspoon pink salt or non-iodized salt (or as needed)
+                          - listitem [ref=e514]:
+                            - generic [ref=e515]:
+                              - checkbox "1¼ cups water to blend dal (adjust if needed)" [ref=e516]
+                              - generic [ref=e517]: ▢
+                            - text: 1¼ cups water to blend dal (adjust if needed)
+                          - listitem [ref=e519]:
+                            - generic [ref=e520]:
+                              - checkbox "½ to ¾ cups water to blend rice (refer notes)" [ref=e521]
+                              - generic [ref=e522]: ▢
+                            - text: ½ to ¾ cups water to blend rice (refer notes)
+                      - generic [ref=e524]:
+                        - generic [ref=e525]: For potato masala or curry
+                        - list [ref=e527]:
+                          - listitem [ref=e528]:
+                            - generic [ref=e529]:
+                              - checkbox "2 cups potatoes cubed (500 grams or 3 medium)" [ref=e530]
+                              - generic [ref=e531]: ▢
+                            - text: 2 cups potatoes cubed (500 grams or 3 medium)
+                          - listitem [ref=e533]:
+                            - generic [ref=e534]:
+                              - checkbox "1 tablespoon oil" [ref=e535]
+                              - generic [ref=e536]: ▢
+                            - text: 1 tablespoon oil
+                          - listitem [ref=e538]:
+                            - generic [ref=e539]:
+                              - checkbox "¼ to ½ teaspoon mustard seeds" [ref=e540]
+                              - generic [ref=e541]: ▢
+                            - text: ¼ to ½ teaspoon mustard seeds
+                          - listitem [ref=e543]:
+                            - generic [ref=e544]:
+                              - checkbox "½ teaspoon cumin (jeera)" [ref=e545]
+                              - generic [ref=e546]: ▢
+                            - text: ½ teaspoon cumin (jeera)
+                          - listitem [ref=e549]:
+                            - generic [ref=e550]:
+                              - checkbox "1 teaspoon chana dal (bengal gram) (optional)" [ref=e551]
+                              - generic [ref=e552]: ▢
+                            - text: 1 teaspoon chana dal (bengal gram) (optional)
+                          - listitem [ref=e554]:
+                            - generic [ref=e555]:
+                              - checkbox "1 teaspoon urad dal (skinned black gram) (optional)" [ref=e556]
+                              - generic [ref=e557]: ▢
+                            - text: 1 teaspoon urad dal (skinned black gram) (optional)
+                          - listitem [ref=e559]:
+                            - generic [ref=e560]:
+                              - checkbox "1 pinch asafoetida (hing)(optional)" [ref=e561]
+                              - generic [ref=e562]: ▢
+                            - text: 1 pinch asafoetida (hing)(optional)
+                          - listitem [ref=e564]:
+                            - generic [ref=e565]:
+                              - checkbox "1 teaspoon ginger (grated or paste)" [ref=e566]
+                              - generic [ref=e567]: ▢
+                            - text: 1 teaspoon ginger (grated or paste)
+                          - listitem [ref=e569]:
+                            - generic [ref=e570]:
+                              - checkbox "¾ to 1 cup onions thinly sliced" [ref=e571]
+                              - generic [ref=e572]: ▢
+                            - text: ¾ to 1 cup onions thinly sliced
+                          - listitem [ref=e574]:
+                            - generic [ref=e575]:
+                              - checkbox "1 sprig curry leaves" [ref=e576]
+                              - generic [ref=e577]: ▢
+                            - text: 1 sprig curry leaves
+                          - listitem [ref=e579]:
+                            - generic [ref=e580]:
+                              - checkbox "2 green chilies chopped or sliced" [ref=e581]
+                              - generic [ref=e582]: ▢
+                            - text: 2 green chilies chopped or sliced
+                          - listitem [ref=e584]:
+                            - generic [ref=e585]:
+                              - checkbox "¼ teaspoon turmeric (haldi)" [ref=e586]
+                              - generic [ref=e587]: ▢
+                            - text: ¼ teaspoon turmeric (haldi)
+                          - listitem [ref=e589]:
+                            - generic [ref=e590]:
+                              - checkbox "½ to ¾ teaspoon salt (adjust to taste)" [ref=e591]
+                              - generic [ref=e592]: ▢
+                            - text: ½ to ¾ teaspoon salt (adjust to taste)
+                          - listitem [ref=e594]:
+                            - generic [ref=e595]:
+                              - checkbox "2 tablespoon coriander leaves finely chopped" [ref=e596]
+                              - generic [ref=e597]: ▢
+                            - text: 2 tablespoon coriander leaves finely chopped
+                      - generic [ref=e599]:
+                        - generic [ref=e600]: To make dosas
+                        - list [ref=e602]:
+                          - listitem [ref=e603]:
+                            - generic [ref=e604]:
+                              - checkbox "Butter as needed (preferably unsalted cultured butter)" [ref=e605]
+                              - generic [ref=e606]: ▢
+                            - text: Butter as needed (preferably unsalted cultured butter)
+                  - generic [ref=e608]:
+                    - heading [level=3] [ref=e609]:
+                      - text: Method
+                      - button "Hide Section" [expanded] [ref=e612] [cursor=pointer]
+                    - generic [ref=e614]:
+                      - generic [ref=e615]:
+                        - generic [ref=e616]: Make masala dosa batter in mixer or wet grinder
+                        - list [ref=e618]:
+                          - listitem [ref=e620]:
+                            - generic [ref=e621]: Add urad dal, chana dal and methi seeds to a large bowl. Rinse them well a few times and pour lots of fresh water. To another large bowl, add rice and rinse it well few times. Pour lots of fresh water.
+                          - listitem [ref=e623]:
+                            - generic [ref=e624]: Soak for 4 to 5 hours. 30 mins before you begin to make the batter, rinse poha twice. Pour water enough to immerse it fully. Soak it for 30 mins.
+                          - listitem [ref=e626]:
+                            - generic [ref=e627]: Later drain the water from the dal completely and add to a blender jar along with poha.
+                          - listitem [ref=e629]:
+                            - generic [ref=e630]: Pour 1¼ cup water and salt. If you live in a hot weather then skip salt now and add after fermentation.
+                          - listitem [ref=e632]:
+                            - generic [ref=e633]: Blend the batter well until thick, frothy and smooth. While you blend ensure your blender doesn't heat up and get overloaded. So give a break in between and blend.
+                          - listitem [ref=e635]:
+                            - generic [ref=e636]: Transfer the batter to the bowl in which you soaked the dal.
+                          - listitem [ref=e638]:
+                            - generic [ref=e639]: Drain the water from rice completely and add it along with ½ cup water to the blender jar.
+                          - listitem [ref=e642]:
+                            - generic [ref=e643]: Blend slightly coarse or smooth to suit your liking. I make a slightly coarse batter of fine semolina texture. If needed pour the rest of the ¼ cup water while blending. I use up full 2 cups water mentioned in the recipe to blend.
+                          - listitem [ref=e645]:
+                            - generic [ref=e646]: Pour this rice batter to the dal batter & mix well. You can check the video or step by step photos to know the consistency of batter.
+                          - listitem [ref=e648]:
+                            - generic [ref=e649]: I divide the batter to 2 large bowls. You can do the same if you prefer to use it on 2 different days. Cover the bowl.
+                      - generic [ref=e651]:
+                        - generic [ref=e652]: Fermentation
+                        - list [ref=e654]:
+                          - listitem [ref=e655]:
+                            - generic [ref=e656]: Allow the masala dosa batter to ferment in a warm place for about 6 to 16 hours depending on your weather. The batter has to rise and turn slightly fluffy. Do not over ferment the batter.
+                          - listitem [ref=e658]:
+                            - generic [ref=e659]: If you live in a cold place, then preheat the oven to 60 C or 140 F for 10 mins. Keep the batter inside with the oven light ON. Or You can also use your instant pot in the yogurt settings.
+                      - generic [ref=e661]:
+                        - generic [ref=e662]: Make Potato Curry
+                        - list [ref=e664]:
+                          - listitem [ref=e666]:
+                            - generic [ref=e667]: Boil or steam potatoes until just done. Do not cook them until very mushy.
+                          - listitem [ref=e669]:
+                            - generic [ref=e671]:
+                              - strong [ref=e672]: "Instant pot:"
+                              - text: You can pressure cook the potatoes in your IP following these timings – 5 mins if using small potatoes, 6 to 7 mins if using medium ones and 10 mins if using large potatoes.
+                          - listitem [ref=e673]:
+                            - generic [ref=e675]:
+                              - strong [ref=e676]: Pressure cooking
+                              - text: ": If using a pressure cooker, then add peeled and diced potatoes to a bowl and pour water to partially cover them. Place it in the pressure cooker and let it whistle thrice."
+                          - listitem [ref=e677]:
+                            - generic [ref=e678]: While the potatoes boil, soak 1 teaspoon chana dal and 1 teaspoon urad dal in little hot water so they soften. After 30 mins drain the water from the dal and keep aside. When the pressure releases, remove the potatoes.
+                          - listitem [ref=e680]:
+                            - generic [ref=e681]: Heat a pan with oil. Then add cumin, mustard, chana dal and urad dal. Saute until the dals turns golden.
+                          - listitem [ref=e684]:
+                            - generic [ref=e685]: Then add onions, curry leaves and chilies. Fry until the onions turn lightly golden.
+                          - listitem [ref=e687]:
+                            - generic [ref=e688]: Add hing and ginger. Fry until the aroma of ginger comes out.
+                          - listitem [ref=e690]:
+                            - generic [ref=e691]: Crumble the potatoes and add them to the pan. Add turmeric and salt along with 2 to 3 tbsps of water. Skip pouring water if your potatoes are too moist or lightly mushy.
+                          - listitem [ref=e693]:
+                            - generic [ref=e694]: Saute for 2 to 3 mins. Add coriander leaves. Taste and add more salt if needed. Set this aside.
+                      - generic [ref=e696]:
+                        - generic [ref=e697]: How to Make Masala Dosa
+                        - list [ref=e699]:
+                          - listitem [ref=e700]:
+                            - generic [ref=e701]: Bring the batter to consistency by adding little water. It must be of thick pouring and spreading consistency.
+                          - listitem [ref=e704]:
+                            - generic [ref=e705]: Heat your dosa tawa on a medium heat. If using cast iron pan, when it turns slightly hot, drizzle few drops of oil on it. Insert a fork or a butter knife into a cut onion and rub the oil all over the pan. If using cast iron griddle, you can also season it the previous night.
+                          - listitem [ref=e707]:
+                            - generic [ref=e708]: Check if your pan is hot enough by sprinkling little water on it. It is hot enough it will sizzle and the water evaporates. This tip is only for cast iron pan. Do not try this on a non-stick.
+                          - listitem [ref=e710]:
+                            - generic [ref=e711]: When the pan is hot enough, stir your batter once and take a ladle full of it.
+                          - listitem [ref=e713]:
+                            - generic [ref=e715]:
+                              - text: Pour it in the center of the hot tawa. Immediately begin to spread it in a circular motion starting from the center, keep moving your hand in clockwise direction, making circles until you reach the edges of the pan.
+                              - strong [ref=e716]: Refer video or check images below.
+                          - listitem [ref=e717]:
+                            - generic [ref=e718]: You can make thick or thin dosas as per your desire. If you are unable to spread the batter, it means the batter is too thick or the pan is too hot. Check the troubleshooting tips above.
+                          - listitem [ref=e721]:
+                            - generic [ref=e722]: Pour about half tsp oil or spread ¼ tsp soft butter around the edges & a little here and there.
+                          - listitem [ref=e724]:
+                            - generic [ref=e725]: Cook the masla dosa on a medium heat. Within few minutes, you can see the edges leave the pan. Flip and cook just for 1 minute.
+                          - listitem [ref=e727]:
+                            - generic [ref=e728]: Flip it back and cook until the base turns golden and crisp. If making mysore masala dosa, smear the red chutney (recipe below) as desired. Place the curry in one half of the dosa. Fold it or roll it.
+                          - listitem [ref=e730]:
+                            - generic [ref=e731]: To make the next dosa, if using cast iron pan repeat the process of rubbing with cut onion. Make sure the tawa is hot enough and not over hot otherwise it will burn the dosa. Do not cook the dosa on low heat as it makes the dosa hard.
+                          - listitem [ref=e733]:
+                            - generic [ref=e735]:
+                              - text: Serve crispy masala dosa hot with
+                              - link [ref=e736] [cursor=pointer]:
+                                - /url: https://www.indianhealthyrecipes.com/coriander-coconut-chutney/
+                                - strong [ref=e737]: coconut chutney
+                              - text: and
+                              - link [ref=e738] [cursor=pointer]:
+                                - /url: https://www.indianhealthyrecipes.com/idli-sambar-recipe-tiffin-sambar/
+                                - strong [ref=e739]: tiffin sambar
+                              - text: .
+                      - generic [ref=e740]:
+                        - generic [ref=e741]: Make Red Chutney for mysore masala dosa – optional
+                        - list [ref=e743]:
+                          - listitem [ref=e745]:
+                            - generic [ref=e746]: Roast 2 tbsps chana dal until golden along with 6 to 8 dried red chilies. Chilies have to turn crisp.
+                          - listitem [ref=e748]:
+                            - generic [ref=e749]: Saute 1 large onions lightly in 1 tsp oil until the raw smell goes off. Add 2 pinches of cumin.
+                          - listitem [ref=e751]:
+                            - generic [ref=e752]: Cool everything. Powder the dal and chilies first.
+                          - listitem [ref=e754]:
+                            - generic [ref=e755]: Add half tsp tamarind (optional), 2 garlic cloves and salt. Blend till smooth. You will have a thick chutney. If the chutney turns very thick, add 1 to 2 tbsps of water and blend again.
+                  - generic [ref=e757]:
+                    - heading [level=3] [ref=e758]:
+                      - text: Notes
+                      - button "Hide Section" [expanded] [ref=e761] [cursor=pointer]
+                    - generic [ref=e764]:
+                      - generic [ref=e765]:
+                        - strong [ref=e766]: "Update on Rice:"
+                        - text: These days I am able to make great masala dosas with aged raw basmati rice too. I use Lal Quilla basmati rice (old malai). Any other aged raw basmati rice should work the same way.
+                      - generic [ref=e769]: The same recipe works with 1.5 & 2 cups of rice. If you use 1.5 cups rice then you will not need 2 cups water to blend.
+                      - generic [ref=e771]: For aroma you may add 2 to 3 tbsps of chiroti rava or fine semolina to the fermented batter just before you make the masala dosas. Take a portion of the batter you want to use to a mixing bowl and add a proportionate amount of semolina. Do not rest after adding semolina.
+                      - generic [ref=e774]: If the above recipe does not yield the results you expected, then it may be because of the change in the quality or type of dal & rice.
+                      - generic [ref=e776]:
+                        - strong [ref=e777]: "Update:"
+                        - text: Here is another variation that I got from a restaurant
+                      - list [ref=e779]:
+                        - listitem [ref=e780]: 2.5 tbsps chana dal
+                        - listitem [ref=e781]: 1/2 cup urad dal
+                        - listitem [ref=e782]: 2 cups rice
+                        - listitem [ref=e783]: 2 cups rice flour
+                        - listitem [ref=e784]: 1/2 cup poha
+                        - listitem [ref=e785]: 1/2 tsp methi seeds
+                        - listitem [ref=e787]: 1/2 cup maida (all-purpose flour)
+                        - listitem [ref=e788]: 1/4 cup semolina
+                      - generic [ref=e789]: Follow the same method mentioned in the recipe card. Ferment and then mix together semolina and maida just before making dosas.
+                  - generic [ref=e790]:
+                    - heading [level=3] [ref=e791]:
+                      - text: Video
+                      - button "Hide Section" [expanded] [ref=e794] [cursor=pointer]
+                    - generic [ref=e798]:
+                      - heading "Watch Masala Dosa Video" [level=2] [ref=e799]
+                      - button "Play Youtube video" [ref=e801] [cursor=pointer]
+                  - generic [ref=e806]:
+                    - heading "Tried this recipe?" [level=3] [ref=e807]
+                    - generic [ref=e808]:
+                      - text: Mention
+                      - link "@SwasthisRecipes" [ref=e809] [cursor=pointer]:
+                        - /url: https://www.instagram.com/SwasthisRecipes
+                      - text: or tag
+                      - link "#swasthisrecipes" [ref=e810] [cursor=pointer]:
+                        - /url: https://www.instagram.com/explore/tags/swasthisrecipes
+                      - text: "!"
+                  - generic [ref=e811]:
+                    - heading [level=3] [ref=e812]:
+                      - text: Nutrition
+                      - button "Hide Section" [expanded] [ref=e815] [cursor=pointer]
+                    - generic [ref=e819]:
+                      - generic [ref=e820]:
+                        - generic [ref=e821]: Calories
+                        - generic [ref=e822]: 113kcal
+                      - generic [ref=e823]:
+                        - generic [ref=e824]: Carbohydrates
+                        - generic [ref=e825]: 22g
+                      - generic [ref=e826]:
+                        - generic [ref=e827]: Protein
+                        - generic [ref=e828]: 3g
+                      - generic [ref=e829]:
+                        - generic [ref=e830]: Fat
+                        - generic [ref=e831]: 1g
+                      - generic [ref=e832]:
+                        - generic [ref=e833]: Saturated Fat
+                        - generic [ref=e834]: 1g
+                      - generic [ref=e835]:
+                        - generic [ref=e836]: Sodium
+                        - generic [ref=e837]: 165mg
+                      - generic [ref=e838]:
+                        - generic [ref=e839]: Potassium
+                        - generic [ref=e840]: 109mg
+                      - generic [ref=e841]:
+                        - generic [ref=e842]: Fiber
+                        - generic [ref=e843]: 3g
+                      - generic [ref=e844]:
+                        - generic [ref=e845]: Sugar
+                        - generic [ref=e846]: 1g
+                      - generic [ref=e847]:
+                        - generic [ref=e848]: Vitamin A
+                        - generic [ref=e849]: 15IU
+                      - generic [ref=e850]:
+                        - generic [ref=e851]: Vitamin C
+                        - generic [ref=e852]: 4mg
+                      - generic [ref=e853]:
+                        - generic [ref=e854]: Calcium
+                        - generic [ref=e855]: 13mg
+                      - generic [ref=e856]:
+                        - generic [ref=e857]: Iron
+                        - generic [ref=e858]: 2mg
+                - generic [ref=e862]:
+                  - heading "Meat Recipes" [level=2] [ref=e863]
+                  - generic "Post Carousel" [ref=e865]:
+                    - article [ref=e866]:
+                      - heading [level=3] [ref=e870]:
+                        - link "Butter Chicken Recipe (Indian Chicken Makhani)" [ref=e871] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/butter-chicken/
+                    - article [ref=e872]:
+                      - heading [level=3] [ref=e876]:
+                        - link "Chicken Korma Recipe" [ref=e877] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/chicken-korma-recipe/
+                    - article [ref=e878]:
+                      - heading [level=3] [ref=e882]:
+                        - link "Chicken Tikka Masala Recipe" [ref=e883] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/chicken-tikka-masala/
+                    - article [ref=e884]:
+                      - heading [level=3] [ref=e888]:
+                        - link "Chicken Vindaloo (Restaurant Style)" [ref=e889] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/chicken-vindaloo/
+                    - article [ref=e890]:
+                      - heading [level=3] [ref=e894]:
+                        - link "Chicken Biryani Recipe" [ref=e895] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/chicken-biryani-recipe/
+                    - article [ref=e896]:
+                      - heading [level=3] [ref=e900]:
+                        - link "Chicken Curry Recipe" [ref=e901] [cursor=pointer]:
+                          - /url: https://www.indianhealthyrecipes.com/chicken-curry/
+                - generic [ref=e905]:
+                  - heading "About Swasthi" [level=3] [ref=e906]
+                  - paragraph [ref=e907]:
+                    - text: I’m Swasthi Shreekanth, the recipe developer, food photographer & food writer behind Swasthi’s Recipes. My aim is to help you cook great Indian food with my time-tested recipes. After 2 decades of experience in practical Indian cooking I started this blog to help people cook better & more often at home. Whether you are a novice or an experienced cook I am sure Swasthi’s Recipes will assist you to enhance your cooking skills.
+                    - link "More about me" [ref=e908] [cursor=pointer]:
+                      - /url: https://www.indianhealthyrecipes.com/about/
+                  - paragraph [ref=e909]:
+                    - strong [ref=e910]: Follow Swasthi’s Recipes
+                  - list [ref=e913]:
+                    - listitem [ref=e914]:
+                      - link "Facebook" [ref=e915] [cursor=pointer]:
+                        - /url: https://www.facebook.com/swasthisrecipes/
+                    - listitem [ref=e917]:
+                      - link "Twitter" [ref=e918] [cursor=pointer]:
+                        - /url: https://twitter.com/SwasthisRecipes
+                    - listitem [ref=e920]:
+                      - link "Instagram" [ref=e921] [cursor=pointer]:
+                        - /url: https://www.instagram.com/swasthisrecipes/
+                    - listitem [ref=e923]:
+                      - link "Pinterest" [ref=e924] [cursor=pointer]:
+                        - /url: https://www.pinterest.com/swasthi/
+                    - listitem [ref=e926]:
+                      - link "YouTube" [ref=e927] [cursor=pointer]:
+                        - /url: https://www.youtube.com/c/indianhealthyrecipes
+                  - generic [ref=e932]:
+                    - generic [ref=e933]:
+                      - generic [ref=e934]: Email sign up to receive awesome Swasthi's Recipes in your inbox *
+                      - textbox "Email sign up to receive awesome Swasthi's Recipes in your inbox" [ref=e935]
+                    - button "Subscribe!" [ref=e937] [cursor=pointer]
+          - generic [ref=e939]:
+            - heading "Comments" [level=3] [ref=e940]
+            - generic [ref=e941]:
+              - generic [ref=e945]:
+                - textbox "Share Your Comments & Feedback" [ref=e951]
+                - generic [ref=e952]:
+                  - generic [ref=e954]:
+                    - text: Recipe Rating
+                    - group "Recipe Rating" [ref=e956]:
+                      - radio "Don't rate this recipe" [checked] [ref=e958] [cursor=pointer]
+                      - radio "Rate this recipe 1 out of 5 stars" [ref=e959] [cursor=pointer]
+                      - radio "Rate this recipe 2 out of 5 stars" [ref=e960] [cursor=pointer]
+                      - radio "Rate this recipe 3 out of 5 stars" [ref=e961] [cursor=pointer]
+                      - radio "Rate this recipe 4 out of 5 stars" [ref=e962] [cursor=pointer]
+                      - radio "Rate this recipe 5 out of 5 stars" [ref=e963] [cursor=pointer]
+                  - generic [ref=e964]:
+                    - generic [ref=e965]:
+                      - generic [ref=e966]:
+                        - textbox "Name*" [ref=e967]
+                        - generic [ref=e968]: Name*
+                      - generic [ref=e969]:
+                        - textbox "Email*" [ref=e970]
+                        - generic [ref=e971]: Email*
+                    - button "Post Comment" [ref=e974] [cursor=pointer]
+              - generic [ref=e977]:
+                - generic [ref=e980]:
+                  - generic [ref=e982]:
+                    - generic [ref=e983]: Elzie
+                    - generic "February 25, 2026 1:28 am" [ref=e986]
+                  - paragraph [ref=e988]:
+                    - img "5 stars" [ref=e989]
+                    - text: Wonderful
+                  - generic [ref=e990]: Reply
+                - generic [ref=e995]:
+                  - generic [ref=e997]:
+                    - generic [ref=e999]:
+                      - generic [ref=e1000]: Lata
+                      - generic "February 2, 2026 4:58 pm" [ref=e1003]
+                    - paragraph [ref=e1005]:
+                      - img "5 stars" [ref=e1006]
+                      - text: Hi Swasthi I made your masala dosas yesterday and my husband I loved it. My husband was saying that it tasted like restaurant style dosa. Thanks so much for the recipe. I have passed on this recipe to my family.
+                    - generic [ref=e1007]: Reply
+                  - generic [ref=e1014]:
+                    - generic [ref=e1016]:
+                      - generic [ref=e1017]: swasthi
+                      - generic [ref=e1019]:
+                        - generic [ref=e1020]:
+                          - text: Reply to
+                          - link "Lata" [ref=e1021] [cursor=pointer]:
+                            - /url: "#comment-183773"
+                        - generic "February 3, 2026 1:40 am" [ref=e1022]
+                    - paragraph [ref=e1024]: Hi Lata, That’s nice to know. Thanks a lot for sharing back
+                    - generic [ref=e1025]: Reply
+                - generic [ref=e1030]:
+                  - generic [ref=e1032]:
+                    - generic [ref=e1034]:
+                      - generic [ref=e1035]: Joanna
+                      - generic "June 7, 2025 8:34 pm" [ref=e1038]
+                    - paragraph [ref=e1040]:
+                      - img "5 stars" [ref=e1041]
+                      - text: Great flavours – thank you. I reduced the chili by half in both the potato masala and the Mysore chutney, and still plenty of heat for me x
+                    - generic [ref=e1042]: Reply
+                  - generic [ref=e1049]:
+                    - generic [ref=e1051]:
+                      - generic [ref=e1052]: swasthi
+                      - generic [ref=e1054]:
+                        - generic [ref=e1055]:
+                          - text: Reply to
+                          - link "Joanna" [ref=e1056] [cursor=pointer]:
+                            - /url: "#comment-176922"
+                        - generic "June 8, 2025 1:30 am" [ref=e1057]
+                    - paragraph [ref=e1059]: Glad you like it Joanna. Thank you for sharing back.
+                    - generic [ref=e1060]: Reply
+                - generic [ref=e1066]:
+                  - generic [ref=e1068]:
+                    - generic [ref=e1070]:
+                      - generic [ref=e1071]: Eric B
+                      - generic "May 3, 2025 1:54 pm" [ref=e1074]
+                    - paragraph [ref=e1076]: Which types of chutney are in the recipe picture?
+                    - generic [ref=e1077]: Reply
+                  - generic [ref=e1084]:
+                    - generic [ref=e1086]:
+                      - generic [ref=e1087]: swasthi
+                      - generic [ref=e1089]:
+                        - generic [ref=e1090]:
+                          - text: Reply to
+                          - link "Eric B" [ref=e1091] [cursor=pointer]:
+                            - /url: "#comment-175864"
+                        - generic "May 3, 2025 2:40 pm" [ref=e1092]
+                    - paragraph [ref=e1094]:
+                      - text: White one is this
+                      - link "coconut chutney" [ref=e1095] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/coriander-coconut-chutney/
+                      - text: and I have the red chutney mentioned in the recipe card instructions
+                    - generic [ref=e1096]: Reply
+                - generic [ref=e1103]:
+                  - generic [ref=e1105]:
+                    - generic [ref=e1106]: Sameera
+                    - generic "April 15, 2025 5:20 am" [ref=e1109]
+                  - paragraph [ref=e1111]:
+                    - img "5 stars" [ref=e1112]
+                    - text: I was trying to learn masala dosa and found this recipe very good because there are plenty of photos showing the actual steps. I succeeded in the first attempt itself and I used my oven with the fermentation option. Had beautiful batter under 4 hours. Masala dosa filling was delicious too!. Thank you Swasthi
+                  - generic [ref=e1113]: Reply
+                - generic [ref=e1120]:
+                  - generic [ref=e1122]:
+                    - generic [ref=e1123]: Chandrika
+                    - generic "April 7, 2025 5:28 am" [ref=e1126]
+                  - paragraph [ref=e1128]:
+                    - img "5 stars" [ref=e1129]
+                    - text: Very good masala dosa recipe. I made them for the first time with your red chutney and tiffin sambar. Excellent meal.
+                  - generic [ref=e1130]: Reply
+                - generic [ref=e1136]:
+                  - generic [ref=e1138]:
+                    - generic [ref=e1140]:
+                      - generic [ref=e1141]: Ravi
+                      - generic "March 29, 2025 2:55 am" [ref=e1144]
+                    - paragraph [ref=e1146]:
+                      - img "5 stars" [ref=e1147]
+                      - text: Good masala dosa recipe. Tried it thrice and works out well. Pls post a recipe for paneer dosa
+                    - generic [ref=e1148]: Reply
+                  - generic [ref=e1155]:
+                    - generic [ref=e1157]:
+                      - generic [ref=e1158]: swasthi
+                      - generic [ref=e1160]:
+                        - generic [ref=e1161]:
+                          - text: Reply to
+                          - link "Ravi" [ref=e1162] [cursor=pointer]:
+                            - /url: "#comment-174795"
+                        - generic "March 29, 2025 5:12 pm" [ref=e1163]
+                    - paragraph [ref=e1165]: Thank you. Yes sure I will try to share
+                    - generic [ref=e1166]: Reply
+                - generic [ref=e1171]:
+                  - generic [ref=e1173]:
+                    - generic [ref=e1175]:
+                      - generic [ref=e1176]: Sriya
+                      - generic "December 23, 2024 8:26 pm" [ref=e1179]
+                    - paragraph [ref=e1181]:
+                      - img "5 stars" [ref=e1182]
+                      - text: Hey! Can this be made on an induction hob? If so are there any amendments to the recipe/ instructions above?
+                    - generic [ref=e1183]: Reply
+                  - generic [ref=e1190]:
+                    - generic [ref=e1192]:
+                      - generic [ref=e1193]: swasthi
+                      - generic [ref=e1195]:
+                        - generic [ref=e1196]:
+                          - text: Reply to
+                          - link "Sriya" [ref=e1197] [cursor=pointer]:
+                            - /url: "#comment-171832"
+                        - generic "December 24, 2024 2:52 am" [ref=e1198]
+                    - paragraph [ref=e1200]: Hi Sriya, As shown in the pictures I use a built-in induction. No amendments are required but it should have a large cooking zone and be powerful enough to cook the batter. Also try bringing the batter close to room temperature (if refrigerated) before making the dosa. Hope this helps
+                    - generic [ref=e1201]: Reply
+                - generic [ref=e1206]:
+                  - generic [ref=e1208]:
+                    - generic [ref=e1210]:
+                      - generic [ref=e1211]: Ishani
+                      - generic "September 24, 2024 11:44 pm" [ref=e1214]
+                    - paragraph [ref=e1216]:
+                      - img "5 stars" [ref=e1217]
+                      - text: All the recipes are so on point.. my husband just loves the food. I religiously follow her recipes. if you stick to what is written, you will fall in love with your own food
+                    - generic [ref=e1218]: Reply
+                  - generic [ref=e1225]:
+                    - generic [ref=e1227]:
+                      - generic [ref=e1228]: swasthi
+                      - generic [ref=e1230]:
+                        - generic [ref=e1231]:
+                          - text: Reply to
+                          - link "Ishani" [ref=e1232] [cursor=pointer]:
+                            - /url: "#comment-169162"
+                        - generic "September 25, 2024 12:36 am" [ref=e1233]
+                    - paragraph [ref=e1235]: Thank you so much Ishani
+                    - generic [ref=e1236]: Reply
+                - generic [ref=e1242]:
+                  - generic [ref=e1244]:
+                    - generic [ref=e1246]:
+                      - generic [ref=e1247]: Rita
+                      - generic "December 27, 2023 2:47 pm" [ref=e1250]
+                    - paragraph [ref=e1252]: Is Eno same thing as pink salt.. someone should please help me out
+                    - generic [ref=e1253]: Reply
+                  - generic [ref=e1260]:
+                    - generic [ref=e1262]:
+                      - generic [ref=e1263]: swasthi
+                      - generic [ref=e1265]:
+                        - generic [ref=e1266]:
+                          - text: Reply to
+                          - link "Rita" [ref=e1267] [cursor=pointer]:
+                            - /url: "#comment-160519"
+                        - generic "December 27, 2023 2:52 pm" [ref=e1268]
+                    - paragraph [ref=e1270]: Hi Rita, I think this comment was for a different post. Eno is fruit salt and is different from pink salt.
+                    - generic [ref=e1271]: Reply
+                - generic [ref=e1276]:
+                  - generic [ref=e1278]:
+                    - generic [ref=e1280]:
+                      - generic [ref=e1281]: Rom
+                      - generic "June 29, 2023 12:49 pm" [ref=e1284]
+                    - paragraph [ref=e1286]: Hello Swasthi Recently I came across a dosa recipe on the internet and the recipe called for using what is known as “dosa rice” for making real crispy dosas. I never heard of this dosa rice. What exactly is this rice? Is it same as “idly rice”? Please enlighten me if you know what it this is. Thanks Rom
+                    - generic [ref=e1287]: Reply
+                  - generic [ref=e1292]:
+                    - generic [ref=e1294]:
+                      - generic [ref=e1296]:
+                        - generic [ref=e1297]: swasthi
+                        - generic [ref=e1299]:
+                          - generic [ref=e1300]:
+                            - text: Reply to
+                            - link "Rom" [ref=e1301] [cursor=pointer]:
+                              - /url: "#comment-154648"
+                          - generic "June 30, 2023 8:22 am" [ref=e1302]
+                      - paragraph [ref=e1304]: Hello Rom garu, Dosa rice in Tamil Nadu is just idli rice. But in Karnataka it is broken rice mostly from premium quality raw rice like sona masoori. These are called nookalu/ nukalu in Telugu. They are separated from the rice, after milling the paddy in small to medium scale Rice mills. They are of the same quality as rice but are sold at lower price. Most restaurants in smaller towns and cities of Karnataka use this kind of broken sona masuri rice to cut down the cost. They taste the same as raw rice & are best used to make crispy dosas. Not sure if this is what was mentioned in the video you watched. Hope this helps.
+                      - generic [ref=e1305]: Reply
+                    - generic [ref=e1312]:
+                      - generic [ref=e1314]:
+                        - generic [ref=e1315]: Rom
+                        - generic [ref=e1317]:
+                          - generic [ref=e1318]:
+                            - text: Reply to
+                            - link "swasthi" [ref=e1319] [cursor=pointer]:
+                              - /url: "#comment-154674"
+                          - generic "June 30, 2023 5:35 pm" [ref=e1320]
+                      - paragraph [ref=e1322]: Swasthi Garu, Thanks for your response. I will stick with your recipe anyway. Just curious what this dosa rice means. I checked a couple of Indian stores here in US, no one carries this dosa rice and no one even heard about it.
+                      - generic [ref=e1323]: Reply
+                - generic [ref=e1328]:
+                  - generic [ref=e1330]:
+                    - generic [ref=e1332]:
+                      - generic [ref=e1333]: Lavanya
+                      - generic "February 27, 2023 10:11 am" [ref=e1336]
+                    - paragraph [ref=e1338]:
+                      - img "5 stars" [ref=e1339]
+                      - text: Tried to make masala dosa for the first time and can’t believe I made them. I bought a preseasoned cast iron tawa online and followed the recipe exactly. It is easy and they a super hit with my family. Thank you very much for the amazing instructions and pictures.
+                    - generic [ref=e1340]: Reply
+                  - generic [ref=e1347]:
+                    - generic [ref=e1349]:
+                      - generic [ref=e1350]: swasthi
+                      - generic [ref=e1352]:
+                        - generic [ref=e1353]:
+                          - text: Reply to
+                          - link "Lavanya" [ref=e1354] [cursor=pointer]:
+                            - /url: "#comment-151691"
+                        - generic "May 23, 2023 2:06 am" [ref=e1355]
+                    - paragraph [ref=e1357]: So glad to know Lavanya. Thanks for sharing back. A cast iron tawa is a great investment to make the best masala dosas.
+                    - generic [ref=e1358]: Reply
+                - generic [ref=e1364]:
+                  - generic [ref=e1366]:
+                    - generic [ref=e1368]:
+                      - generic [ref=e1369]: Harshini
+                      - generic "February 10, 2023 2:35 am" [ref=e1372]
+                    - paragraph [ref=e1374]:
+                      - img "5 stars" [ref=e1375]
+                      - text: Perfect masala dosa!!!!!!!!! I love the masala and red chutney both in this recipe. Turns out great always.
+                    - generic [ref=e1376]: Reply
+                  - generic [ref=e1383]:
+                    - generic [ref=e1385]:
+                      - generic [ref=e1386]: swasthi
+                      - generic [ref=e1388]:
+                        - generic [ref=e1389]:
+                          - text: Reply to
+                          - link "Harshini" [ref=e1390] [cursor=pointer]:
+                            - /url: "#comment-151089"
+                        - generic "February 14, 2023 2:26 pm" [ref=e1391]
+                    - paragraph [ref=e1393]: Thank you Harshini. Glad you like it.
+                    - generic [ref=e1394]: Reply
+                - generic [ref=e1399]:
+                  - generic [ref=e1401]:
+                    - generic [ref=e1403]:
+                      - generic [ref=e1404]: Poornima
+                      - generic "January 4, 2023 2:53 am" [ref=e1407]
+                    - paragraph [ref=e1409]:
+                      - img "5 stars" [ref=e1410]
+                      - text: Hi Swasthi, I have followed your masala dosa recipe for many years now. My family loves them a lot. I was able to make these crispy and delicious dosas earlier but I have been having an issue lately. Everything turns out good except for the taste. Also the dosas are like paper, too light & remain uncooked even though I cook them well. Please help
+                    - generic [ref=e1411]: Reply
+                  - generic [ref=e1418]:
+                    - generic [ref=e1420]:
+                      - generic [ref=e1421]: swasthi
+                      - generic [ref=e1423]:
+                        - generic [ref=e1424]:
+                          - text: Reply to
+                          - link "Poornima" [ref=e1425] [cursor=pointer]:
+                            - /url: "#comment-149945"
+                        - generic "January 4, 2023 6:19 am" [ref=e1426]
+                    - paragraph [ref=e1428]: Hi Poornima, Thank you for being a long time reader. It is just the quality and kind of rice. I feel you have used parboiled & not raw rice. Because I too have the same issue and the rice we are getting in Sg is not the same like before. I suggest you check in Little india if raw masuri or ponni rice is available. Also make sure the packs have raw rice written on them. If you don’t find it you may use 1.5 cups rice flour (Indian brand). This works the same way. Hope this helps.
+                    - generic [ref=e1429]: Reply
+                - generic [ref=e1434]:
+                  - generic [ref=e1436]:
+                    - generic [ref=e1438]:
+                      - generic [ref=e1439]: Fay
+                      - generic "June 12, 2022 11:36 am" [ref=e1442]
+                    - generic [ref=e1443]:
+                      - paragraph [ref=e1444]:
+                        - img "5 stars" [ref=e1445]
+                        - text: Hi Swathi, thank you for your recipe. I’m hoping to make this for the first time. I purchased most of the ingredients yesterday from an Indian store (except the poha). I’m really hoping you would shed some light on a few queries I have.
+                      - paragraph [ref=e1446]: Is ‘raw’ rice that you mention different from (regular) rice whether basmati or sona masuri? – the store had big bags (5-20kg) of sona masuri rice; I also saw smaller packets (1-2kg) of what was simply labeled ‘raw white rice’ – I ended up buying that (since I didn’t see ‘raw’ sona masuri rice)
+                      - paragraph [ref=e1447]: Secondly, I have a regular small juicer blender, will that be sufficient for grinding the lentil and rice? If not, could you recommend a few blender/grinder that I could purchase from UK or Europe.
+                      - paragraph [ref=e1448]: Looking forward to your reply. Kind regards, Fay
+                    - generic [ref=e1449]: Reply
+                  - generic [ref=e1456]:
+                    - generic [ref=e1458]:
+                      - generic [ref=e1459]: swasthi
+                      - generic [ref=e1461]:
+                        - generic [ref=e1462]:
+                          - text: Reply to
+                          - link "Fay" [ref=e1463] [cursor=pointer]:
+                            - /url: "#comment-143939"
+                        - generic "June 13, 2022 9:37 am" [ref=e1464]
+                    - paragraph [ref=e1466]: Hi Fay, The definition for regular rice can be different. I look for packs where it mentions exclusively as “raw sona masuri”. Many times parboiled masuri rice has no mention of it on the pack, you won’t know unless you cook or know very well about them. For basmati it is the other way, if nothing is mentioned they are raw basmati rice. Parboiled basmati is exclusively mentioned. This is my experience. Whether your blender works or not, you should run a small test batch and check. A lot of people like vitamix, there is also a steel jar model. I think you should check on local amazon for the reviews. I prefer the Indian mixer grinders, though they don’t last long they do grind well. Hope this helps
+                    - generic [ref=e1467]: Reply
+                - generic [ref=e1473]:
+                  - generic [ref=e1475]:
+                    - generic [ref=e1477]:
+                      - generic [ref=e1478]: Tried And Tested
+                      - generic "March 25, 2022 2:16 pm" [ref=e1481]
+                    - generic [ref=e1482]:
+                      - paragraph [ref=e1483]:
+                        - img "5 stars" [ref=e1484]
+                        - text: Swasti.. A very important trick we discovered to get **consistent & even** browning of the dosa is to make sure the dosa is cooled down a lot in-between dosas.
+                      - paragraph [ref=e1485]: The reason is simple physics. If the griddle is too hot then the moisture in the dosa batter creates steam and that lifts the dosa batter off the griddle and creates the white areas that you normally see. I have seen UD making dosa on DVG road and they put a lot of water on the griddle between batches.
+                      - paragraph [ref=e1486]: You can help your readers by adding this tip! You can try it yourself also.
+                    - generic [ref=e1487]: Reply
+                  - generic [ref=e1494]:
+                    - generic [ref=e1496]:
+                      - generic [ref=e1497]: swasthi
+                      - generic [ref=e1499]:
+                        - generic [ref=e1500]:
+                          - text: Reply to
+                          - link "Tried And Tested" [ref=e1501] [cursor=pointer]:
+                            - /url: "#comment-141525"
+                        - generic "March 26, 2022 3:33 pm" [ref=e1502]
+                    - paragraph [ref=e1504]: Hi, Yes this is what even we do at home if using a cast iron pan. Never knew the science behind like you said. My Mom told it should be done to bring down the heat else the batter will all clump up, will be unable to spread. But this works well for cast iron pans only. Non-stick pans will warp. Thanks for sharing this. 🙂
+                    - generic [ref=e1505]: Reply
+                - generic [ref=e1512]:
+                  - generic [ref=e1514]:
+                    - generic [ref=e1515]: Mali
+                    - generic "January 23, 2022 10:38 am" [ref=e1518]
+                  - paragraph [ref=e1520]:
+                    - img "5 stars" [ref=e1521]
+                    - text: One of the best.
+                  - generic [ref=e1522]: Reply
+                - generic [ref=e1529]:
+                  - generic [ref=e1531]:
+                    - generic [ref=e1532]: samim
+                    - generic "January 20, 2022 7:42 am" [ref=e1535]
+                  - paragraph [ref=e1537]: hiii,huge fan,mam when we should use parboiled rice
+                  - generic [ref=e1538]: Reply
+                - generic [ref=e1544]:
+                  - generic [ref=e1546]:
+                    - generic [ref=e1548]:
+                      - generic [ref=e1549]: samim
+                      - generic "January 20, 2022 7:24 am" [ref=e1552]
+                    - paragraph [ref=e1554]:
+                      - img "5 stars" [ref=e1555]
+                      - text: hii mam,Ur recipes change my life,,thank you .I have a question when I should use parboiled rice in process?
+                    - generic [ref=e1556]: Reply
+                  - generic [ref=e1563]:
+                    - generic [ref=e1565]:
+                      - generic [ref=e1566]: swasthi
+                      - generic [ref=e1568]:
+                        - generic [ref=e1569]:
+                          - text: Reply to
+                          - link "samim" [ref=e1570] [cursor=pointer]:
+                            - /url: "#comment-139145"
+                        - generic "January 20, 2022 8:03 am" [ref=e1571]
+                    - paragraph [ref=e1573]: Hi Sanim, Glad to know! Thank you. Use parboiled rice to cut down the cost. But there are many different kinds of parboiled rice and each one gives different results. You have to experiment with each kind. Some times replacing all the raw rice with parboiled works and sometimes it won’t. Hope this helps
+                    - generic [ref=e1574]: Reply
+                - generic [ref=e1579]:
+                  - generic [ref=e1581]:
+                    - generic [ref=e1583]:
+                      - generic [ref=e1584]: Radhika Thalanki
+                      - generic "November 10, 2021 3:22 am" [ref=e1587]
+                    - paragraph [ref=e1589]: Hi Swasthi, huge fan of your recipes. One question, can we soak the ural dal and rice together ? I soak them separately only for Idli and not Dosa. Just wondering about the reasoning behind the separate soak/grind. Please clarify !
+                    - generic [ref=e1590]: Reply
+                  - generic [ref=e1597]:
+                    - generic [ref=e1599]:
+                      - generic [ref=e1600]: swasthi
+                      - generic [ref=e1602]:
+                        - generic [ref=e1603]:
+                          - text: Reply to
+                          - link "Radhika Thalanki" [ref=e1604] [cursor=pointer]:
+                            - /url: "#comment-137560"
+                        - generic "November 11, 2021 7:15 am" [ref=e1605]
+                    - paragraph [ref=e1607]: Hi Radhika Thank you so much. I have mentioned in the post why I grind them separately. Fenugreek seeds and lentil batter has to be smooth and this helps in better fermentation. I prefer the rice batter to be slightly coarse as this gives the best crisp texture. If you want both to be smooth then you can soak and grind together
+                    - generic [ref=e1608]: Reply
+                - generic [ref=e1613]:
+                  - generic [ref=e1615]:
+                    - generic [ref=e1617]:
+                      - generic [ref=e1618]: Lukas
+                      - generic "October 20, 2021 11:06 pm" [ref=e1621]
+                    - paragraph [ref=e1623]:
+                      - img "5 stars" [ref=e1624]
+                      - text: Good Evening Swasthi, I have trouble finding aged basmati rice or sona masoori rice, can I just use normal basmati rice. -Thank you
+                    - generic [ref=e1625]: Reply
+                  - generic [ref=e1630]:
+                    - generic [ref=e1632]:
+                      - generic [ref=e1634]:
+                        - generic [ref=e1635]: swasthi
+                        - generic [ref=e1637]:
+                          - generic [ref=e1638]:
+                            - text: Reply to
+                            - link "Lukas" [ref=e1639] [cursor=pointer]:
+                              - /url: "#comment-136960"
+                          - generic "October 21, 2021 1:46 am" [ref=e1640]
+                      - paragraph [ref=e1642]: Good Evening Lukas Yes you can use normal basmati
+                      - generic [ref=e1643]: Reply
+                    - generic [ref=e1650]:
+                      - generic [ref=e1652]:
+                        - generic [ref=e1653]: Lukas
+                        - generic [ref=e1655]:
+                          - generic [ref=e1656]:
+                            - text: Reply to
+                            - link "swasthi" [ref=e1657] [cursor=pointer]:
+                              - /url: "#comment-136962"
+                          - generic "October 21, 2021 8:46 pm" [ref=e1658]
+                      - paragraph [ref=e1660]:
+                        - img "5 stars" [ref=e1661]
+                        - text: Thank you a lot, love your website!
+                      - generic [ref=e1662]: Reply
+                - button "Load Rest of Comments" [ref=e1670] [cursor=pointer]
+        - complementary [ref=e1671]:
+          - generic [ref=e1672]:
+            - generic [ref=e1673]:
+              - paragraph
+              - generic [ref=e1677]:
+                - heading "Popular Recipes" [level=2] [ref=e1678]
+                - generic "Post Carousel" [ref=e1680]:
+                  - article [ref=e1681]:
+                    - heading [level=3] [ref=e1685]:
+                      - link "Chana Masala Recipe (Chickpea Masala)" [ref=e1686] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/chana-masala/
+                  - article [ref=e1687]:
+                    - heading [level=3] [ref=e1691]:
+                      - link "Samosa Recipe (Punjabi Potato Samosa)" [ref=e1692] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/samosa-recipe-make-samosa/
+                  - article [ref=e1693]:
+                    - heading [level=3] [ref=e1697]:
+                      - link "Idli Recipe (Idli Batter Recipe with Pro Tips)" [ref=e1698] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/soft-idli-recipe-using-idli-rava/
+                  - article [ref=e1699]:
+                    - heading [level=3] [ref=e1703]:
+                      - link "Dosa Recipe with homemade Dosa Batter" [ref=e1704] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/dosa-recipe-dosa-batter/
+                  - article [ref=e1705]:
+                    - heading [level=3] [ref=e1709]:
+                      - link "Palak Paneer Recipe (Indian Spinach Paneer)" [ref=e1710] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/palak-paneer-recipe-easy-paneer-recipes-step-by-step-pics/
+                  - article [ref=e1711]:
+                    - heading [level=3] [ref=e1715]:
+                      - link "Dal Makhani Recipe (Restaurant Style)" [ref=e1716] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/dal-makhani-recipe/
+                - generic "Post Carousel" [ref=e1718]:
+                  - article [ref=e1719]:
+                    - heading [level=3] [ref=e1723]:
+                      - link "Paneer Butter Masala Recipe" [ref=e1724] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/paneer-butter-masala-restaurant-style/
+                  - article [ref=e1725]:
+                    - heading [level=3] [ref=e1729]:
+                      - link "Rajma Recipe | Rajma Masala | Rajma Chawal" [ref=e1730] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/rajma-recipe-rajma-masala-recipe/
+              - paragraph
+            - generic [ref=e1731]:
+              - paragraph
+              - generic [ref=e1735]:
+                - heading "Collections" [level=2] [ref=e1736]
+                - generic "Post Carousel" [ref=e1738]:
+                  - article [ref=e1739]:
+                    - heading [level=3] [ref=e1743]:
+                      - link "100+ Indian Dinner Recipes & Easy Ideas" [ref=e1744] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/indian-dinner-recipes/
+                  - article [ref=e1745]:
+                    - heading [level=3] [ref=e1749]:
+                      - link "Paneer Recipes" [ref=e1750] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/paneer-recipes/
+                  - article [ref=e1751]:
+                    - heading [level=3] [ref=e1755]:
+                      - link "Rice Recipes (Variety Indian Rice Dishes)" [ref=e1756] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/rice-recipes/
+                  - article [ref=e1757]:
+                    - heading [level=3] [ref=e1761]:
+                      - link "Diwali Snacks Recipes (Deepavali 2025)" [ref=e1762] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/diwali-recipes-diwali-snacks/
+                  - article [ref=e1763]:
+                    - heading [level=3] [ref=e1767]:
+                      - link "Diwali Sweets & Desserts 2025" [ref=e1768] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/diwali-sweets-recipes-diwali-recipes/
+                  - article [ref=e1769]:
+                    - heading [level=3] [ref=e1773]:
+                      - link "25 Bread Recipes for Snacks & Breakfast" [ref=e1774] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/bread-recipes/
+              - paragraph
+            - generic [ref=e1775]:
+              - paragraph
+              - generic [ref=e1779]:
+                - heading "Sweets" [level=2] [ref=e1780]
+                - generic "Post Carousel" [ref=e1782]:
+                  - article [ref=e1783]:
+                    - heading [level=3] [ref=e1787]:
+                      - link "Rava Laddu Recipe (Rava Ladoo)" [ref=e1788] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/rava-ladoo-recipe-rava-laddu/
+                  - article [ref=e1789]:
+                    - heading [level=3] [ref=e1793]:
+                      - link "Moong Dal Halwa Recipe" [ref=e1794] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/moong-dal-halwa/
+                  - article [ref=e1795]:
+                    - heading [level=3] [ref=e1799]:
+                      - link "Jalebi recipe" [ref=e1800] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/jalebi-recipe/
+                  - article [ref=e1801]:
+                    - heading [level=3] [ref=e1805]:
+                      - link "Rasgulla recipe" [ref=e1806] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/rasgulla-recipe-bengali-rasgulla-recipe-easy-diwali-sweet-recipe/
+                  - article [ref=e1807]:
+                    - heading [level=3] [ref=e1811]:
+                      - link "Rasmalai Recipe" [ref=e1812] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/rasmalai-recipe-easy-rasmalai-in-10-mins-diwali-recipes/
+                  - article [ref=e1813]:
+                    - heading [level=3] [ref=e1817]:
+                      - link "Gulab Jamun Recipe" [ref=e1818] [cursor=pointer]:
+                        - /url: https://www.indianhealthyrecipes.com/gulab-jamun-recipe-using-milk-powder/
+              - paragraph
+    - contentinfo [ref=e1827]:
+      - generic [ref=e1837]:
+        - paragraph [ref=e1838]: © 2026 Swasthi's Recipes
+        - paragraph [ref=e1840]:
+          - link "Privacy Policy" [ref=e1841] [cursor=pointer]:
+            - /url: https://www.indianhealthyrecipes.com/privacy-disclosure-policy/
+  - text: ✕
+  - generic [ref=e1854]:
+    - generic [ref=e1855]:
+      - text: Information from your device can be used to personalize your ad experience.
+      - link "Do not sell or share my personal information." [ref=e1856] [cursor=pointer]:
+        - /url: /
+    - link "Terms of Content Use" [ref=e1858] [cursor=pointer]:
+      - /url: /
+    - text: A Raptive Partner Site
