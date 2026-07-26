@@ -9,7 +9,10 @@ Run it from the 6_mcp directory so it shares the engine's accounts.db:
     uv run uvicorn backend.api:app --port 8000
 """
 
+from pathlib import Path
+
 from fastapi import FastAPI, HTTPException
+from fastapi.staticfiles import StaticFiles
 
 from backend import market
 from backend.accounts import Account
@@ -112,3 +115,8 @@ def get_trader_logs(name: str, last_n: int = 13) -> list[dict]:
         {"datetime": ts, "type": kind, "message": message, "color": LOG_COLORS.get(kind, DEFAULT_LOG_COLOR)}
         for ts, kind, message in rows
     ]
+
+
+static_dir = Path(__file__).resolve().parent.parent / "frontend" / "dist"
+if static_dir.is_dir():
+    app.mount("/", StaticFiles(directory=str(static_dir), html=True), name="frontend")

@@ -10,4 +10,4 @@ RUN pip install uv && uv sync --no-dev
 
 EXPOSE 7860
 
-CMD uv run uvicorn backend.api:app --host 0.0.0.0 --port 7860 & uv run python -m http.server 7860 --directory frontend/dist
+CMD uv run uvicorn backend.api:app --host 0.0.0.0 --port 7860
