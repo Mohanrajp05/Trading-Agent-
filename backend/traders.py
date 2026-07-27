@@ -1,9 +1,10 @@
 from contextlib import AsyncExitStack
 from .accounts_client import read_accounts_resource, read_strategy_resource
 from .tracers import make_trace_id
-from agents import Agent, Tool, Runner, OpenAIChatCompletionsModel, trace
+from agents import Agent, Tool, Runner, OpenAIChatCompletionsModel, ModelSettings, trace
 from openai import AsyncOpenAI
 from dotenv import load_dotenv
+import asyncio
 import os
 import json
 from .templates import (
@@ -20,32 +21,40 @@ load_dotenv(override=True)
 deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
 google_api_key = os.getenv("GOOGLE_API_KEY")
 grok_api_key = os.getenv("GROK_API_KEY")
+groq_api_key = os.getenv("GROQ_API_KEY")
 openrouter_api_key = os.getenv("OPENROUTER_API_KEY")
 
 DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
 GROK_BASE_URL = "https://api.x.ai/v1"
+GROQ_BASE_URL = "https://api.groq.com/openai/v1"
 GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
-MAX_TURNS = 30
+MAX_TURNS = 10
+TRADER_MODEL_SETTINGS = ModelSettings(max_tokens=2048)
 
 openrouter_client = AsyncOpenAI(base_url=OPENROUTER_BASE_URL, api_key=openrouter_api_key)
 deepseek_client = AsyncOpenAI(base_url=DEEPSEEK_BASE_URL, api_key=deepseek_api_key)
 grok_client = AsyncOpenAI(base_url=GROK_BASE_URL, api_key=grok_api_key)
+groq_client = AsyncOpenAI(base_url=GROQ_BASE_URL, api_key=groq_api_key)
 gemini_client = AsyncOpenAI(base_url=GEMINI_BASE_URL, api_key=google_api_key)
 
 
 def get_model(model_name: str):
-    if "/" in model_name:
-        return OpenAIChatCompletionsModel(model=model_name, openai_client=openrouter_client)
+    if model_name.startswith("openrouter/"):
+        actual_model = model_name[len("openrouter/"):]
+        return OpenAIChatCompletionsModel(model=actual_model, openai_client=openrouter_client)
     elif "deepseek" in model_name:
         return OpenAIChatCompletionsModel(model=model_name, openai_client=deepseek_client)
     elif "grok" in model_name:
         return OpenAIChatCompletionsModel(model=model_name, openai_client=grok_client)
+    elif "groq" in model_name:
+        model = model_name[len("groq/"):] if model_name.startswith("groq/") else model_name
+        return OpenAIChatCompletionsModel(model=model, openai_client=groq_client)
     elif "gemini" in model_name:
         return OpenAIChatCompletionsModel(model=model_name, openai_client=gemini_client)
     else:
-        return model_name
+        return OpenAIChatCompletionsModel(model=model_name, openai_client=openrouter_client)
 
 
 async def get_researcher(mcp_servers, model_name) -> Agent:
@@ -54,6 +63,7 @@ async def get_researcher(mcp_servers, model_name) -> Agent:
         instructions=researcher_instructions(),
         model=get_model(model_name),
         mcp_servers=mcp_servers,
+        model_settings=TRADER_MODEL_SETTINGS,
     )
     return researcher
 
@@ -63,22 +73,57 @@ async def get_researcher_tool(mcp_servers, model_name) -> Tool:
     return researcher.as_tool(tool_name="Researcher", tool_description=research_tool())
 
 
+# Fallback model order for each trader.
+# Groq (free) is tried first, then Gemini (free tier), then paid APIs.
+FALLBACK_MODELS = {
+    "Mohan": [
+        "groq/llama-3.3-70b-versatile",
+        "gemini-2.0-flash",
+        "deepseek-chat",
+        "openrouter/openai/gpt-4o-mini",
+    ],
+    "Rohan": [
+        "gemini-2.0-flash",
+        "groq/llama-3.3-70b-versatile",
+        "deepseek-chat",
+        "openrouter/openai/gpt-4o-mini",
+    ],
+    "Sohan": [
+        "deepseek-chat",
+        "gemini-2.0-flash",
+        "groq/llama-3.3-70b-versatile",
+        "openrouter/openai/gpt-4o-mini",
+    ],
+    "Pavan": [
+        "openrouter/openai/gpt-4o-mini",
+        "groq/llama-3.3-70b-versatile",
+        "gemini-2.0-flash",
+        "deepseek-chat",
+    ],
+}
+
+
 class Trader:
     def __init__(self, name: str, lastname="Trader", model_name="gpt-5.4-mini"):
         self.name = name
         self.lastname = lastname
         self.agent = None
         self.model_name = model_name
+        self.fallback_models = FALLBACK_MODELS.get(name, [model_name])
+        self.current_model_index = 0
         self.do_trade = True
 
     async def create_agent(self, trader_mcp_servers, researcher_mcp_servers) -> Agent:
-        tool = await get_researcher_tool(researcher_mcp_servers, self.model_name)
+        current_model = self.fallback_models[self.current_model_index]
+        print(f"{self.name} trying model: {current_model}")
+        tool = await get_researcher_tool(researcher_mcp_servers, current_model)
         self.agent = Agent(
             name=self.name,
             instructions=trader_instructions(self.name),
-            model=get_model(self.model_name),
+            model=get_model(current_model),
             tools=[tool],
             mcp_servers=trader_mcp_servers,
+            model_settings=TRADER_MODEL_SETTINGS,
         )
         return self.agent
 
@@ -108,7 +153,19 @@ class Trader:
                 await stack.enter_async_context(server)
                 for server in researcher_mcp_servers(self.name)
             ]
-            await self.run_agent(trader_servers, researcher_servers)
+            for attempt in range(len(self.fallback_models)):
+                self.current_model_index = attempt
+                try:
+                    await self.run_agent(trader_servers, researcher_servers)
+                    return
+                except Exception as e:
+                    code = _extract_error_code(e)
+                    if attempt < len(self.fallback_models) - 1:
+                        print(f"{self.name} model {self.fallback_models[attempt]} failed ({code}); falling back to next")
+                        if code == "429":
+                            await asyncio.sleep(3)
+                    else:
+                        raise
 
     async def run_with_trace(self):
         trace_name = f"{self.name}-trading" if self.do_trade else f"{self.name}-rebalancing"
@@ -122,3 +179,12 @@ class Trader:
         except Exception as e:
             print(f"Error running trader {self.name}: {e}")
         self.do_trade = not self.do_trade
+
+
+def _extract_error_code(err: Exception) -> str:
+    """Try to extract HTTP status/error code from API errors for clearer logging."""
+    msg = str(err)
+    for token in ("402", "429", "401", "403", "404", "400", "500", "503"):
+        if token in msg:
+            return token
+    return "unknown"

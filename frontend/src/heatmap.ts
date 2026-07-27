@@ -3,6 +3,8 @@
 
 import type { Holding } from "./api";
 
+const INR_SYMBOL = "\u20B9";
+
 const FLASH_MS = 600;
 
 export class Heatmap {
@@ -42,7 +44,7 @@ export class Heatmap {
       }
       tile.style.flexGrow = String(Math.max(0.05, share));
       tile.dataset.pnl = h.unrealized_pnl >= 0 ? "up" : "down";
-      tile.querySelector(".heatmap-value")!.textContent = formatMoney(h.market_value);
+      tile.querySelector(".heatmap-value")!.textContent = formatMoney(h.market_value, h.currency);
 
       const dir = priceDirections[h.symbol];
       if (dir === "up" || dir === "down") flash(tile, dir);
@@ -68,8 +70,9 @@ function flash(tile: HTMLElement, dir: "up" | "down"): void {
   setTimeout(() => tile.classList.remove("flash-up", "flash-down"), FLASH_MS);
 }
 
-function formatMoney(n: number): string {
-  if (n >= 1_000_000) return `$${(n / 1_000_000).toFixed(2)}M`;
-  if (n >= 1_000) return `$${(n / 1_000).toFixed(1)}k`;
-  return `$${n.toFixed(0)}`;
+function formatMoney(n: number, currency?: string): string {
+  const sym = currency === "INR" ? INR_SYMBOL : "$";
+  if (n >= 1_000_000) return `${sym}${(n / 1_000_000).toFixed(2)}M`;
+  if (n >= 1_000) return `${sym}${(n / 1_000).toFixed(1)}k`;
+  return `${sym}${n.toFixed(0)}`;
 }

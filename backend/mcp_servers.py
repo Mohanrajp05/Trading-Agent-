@@ -10,17 +10,8 @@ PROJECT_DIR = str(Path(__file__).resolve().parent.parent)
 tavily_env = {"TAVILY_API_KEY": os.getenv("TAVILY_API_KEY")}
 TIMEOUT = 120
 
-# The market data server for the trader.
-# With a key, hand the agent Massive's own market data server, run locally over stdio.
-# Without one, use our market server, which serves simulated prices.
-if massive_api_key:
-    market_params = {
-        "command": "uvx",
-        "args": ["--from", "git+https://github.com/massive-com/mcp_massive@v0.10.0", "mcp_massive"],
-        "env": {"MASSIVE_API_KEY": massive_api_key},
-    }
-else:
-    market_params = {"command": "uv", "args": ["run", "-m", "backend.market_server"], "cwd": PROJECT_DIR}
+# Always use our market server which supports both US and Indian stocks.
+market_params = {"command": "uv", "args": ["run", "-m", "backend.market_server"], "cwd": PROJECT_DIR}
 
 
 def trader_mcp_servers() -> list[MCPServerStdio]:

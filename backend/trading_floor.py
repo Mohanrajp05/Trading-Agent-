@@ -23,15 +23,15 @@ lastnames = ["Value", "Macro", "Systematic", "Crypto"]
 
 if USE_MANY_MODELS:
     model_names = [
-        "gpt-4o-mini",
-        "gpt-4o-mini",
-        "gpt-4o-mini",
-        "gpt-4o-mini",
+        "groq/llama-3.3-70b-versatile",
+        "gemini-2.0-flash",
+        "deepseek-chat",
+        "openrouter/openai/gpt-4o-mini",
     ]
-    short_model_names = ["GPT 4o Mini", "GPT 4o Mini", "GPT 4o Mini", "GPT 4o Mini"]
+    short_model_names = ["Groq Llama", "Gemini Flash", "DeepSeek Chat", "GPT 4o Mini"]
 else:
-    model_names = ["gpt-5.4-mini"] * 4
-    short_model_names = ["GPT 5.4 mini"] * 4
+    model_names = ["openrouter/openai/gpt-4o-mini"] * 4
+    short_model_names = ["GPT 4o Mini"] * 4
 
 
 def create_traders() -> List[Trader]:
@@ -46,7 +46,11 @@ async def run_every_n_minutes():
     traders = create_traders()
     while True:
         if RUN_EVEN_WHEN_MARKET_IS_CLOSED or is_market_open():
-            await asyncio.gather(*[trader.run() for trader in traders])
+            for trader in traders:
+                try:
+                    await trader.run()
+                except Exception as e:
+                    print(f"Error running trader {trader.name}: {e}")
         else:
             print("Market is closed, skipping run")
         await asyncio.sleep(RUN_EVERY_N_MINUTES * 60)

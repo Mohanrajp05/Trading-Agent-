@@ -52,6 +52,7 @@ def holdings_detail(account: Account) -> list[dict]:
     for symbol, quantity in account.holdings.items():
         price = market.get_share_price(symbol)
         cost = average_cost(account, symbol)
+        currency = "INR" if market.is_indian_stock(symbol) else "USD"
         details.append(
             {
                 "symbol": symbol,
@@ -60,6 +61,7 @@ def holdings_detail(account: Account) -> list[dict]:
                 "avg_cost": cost,
                 "market_value": price * quantity,
                 "unrealized_pnl": (price - cost) * quantity,
+                "currency": currency,
             }
         )
     return details
@@ -92,6 +94,10 @@ def get_trader(name: str) -> dict:
     account = Account.get(name)
     holdings = holdings_detail(account)
     portfolio_value = account.balance + sum(h["market_value"] for h in holdings)
+    transactions = account.list_transactions()
+    for t in transactions:
+        t["currency"] = "INR" if market.is_indian_stock(t["symbol"]) else "USD"
+
     return {
         "name": trader["name"],
         "lastname": trader["lastname"],
@@ -101,7 +107,7 @@ def get_trader(name: str) -> dict:
         "portfolio_value": portfolio_value,
         "pnl": account.calculate_profit_loss(portfolio_value),
         "holdings": holdings,
-        "transactions": account.list_transactions(),
+        "transactions": transactions,
         "time_series": [{"datetime": ts, "value": value} for ts, value in account.portfolio_value_time_series],
     }
 

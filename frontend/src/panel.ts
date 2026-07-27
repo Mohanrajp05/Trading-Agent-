@@ -75,10 +75,11 @@ export class TraderPanel {
     const detail = this.state.detail;
     if (detail) {
       const trend = detail.pnl >= 0 ? "up" : "down";
-      this.valueEl.textContent = formatMoney(detail.portfolio_value);
+      const currency = detectCurrency(detail.holdings);
+      this.valueEl.textContent = formatMoney(detail.portfolio_value, currency);
       this.valueEl.dataset.trend = trend;
       this.pnlEl.dataset.trend = trend;
-      this.pnlEl.textContent = formatPnl(detail.pnl);
+      this.pnlEl.textContent = formatPnl(detail.pnl, currency);
       this.heatmap.render(detail.holdings, this.state.priceDirections());
       this.state.rememberPrices();
       const strategy = detail.strategy.trim();
@@ -100,11 +101,26 @@ export class TraderPanel {
   }
 }
 
-function formatMoney(n: number): string {
+const INR_SYMBOL = "\u20B9";
+
+function formatMoney(n: number, currency?: string): string {
+  if (currency === "INR") {
+    const sym = INR_SYMBOL;
+    if (n >= 1_000_000) return `${sym}${(n / 1_000_000).toFixed(2)}M`;
+    if (n >= 1_000) return `${sym}${(n / 1_000).toFixed(1)}k`;
+    return `${sym}${n.toFixed(0)}`;
+  }
   return n.toLocaleString("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
 }
 
-function formatPnl(n: number): string {
+function formatPnl(n: number, currency?: string): string {
   const sign = n >= 0 ? "+" : "-";
+  if (currency === "INR") {
+    return `${sign}${INR_SYMBOL}${Math.abs(n).toFixed(0)}`;
+  }
   return `${sign}${Math.abs(n).toLocaleString("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 })}`;
+}
+
+function detectCurrency(holdings: { currency: string }[]): string {
+  return holdings.some(h => h.currency === "INR") ? "INR" : "USD";
 }

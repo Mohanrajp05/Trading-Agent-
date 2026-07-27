@@ -467,6 +467,12 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.txn-value {
+  flex: none;
+  color: var(--fg);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
 
 /* ---- Modal ---- */
 

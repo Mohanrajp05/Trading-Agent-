@@ -34,11 +34,16 @@ export class TransactionsView {
       side.dataset.side = t.quantity >= 0 ? "buy" : "sell";
       side.textContent = t.quantity >= 0 ? "BUY" : "SELL";
 
+      const sym = t.currency === "INR" ? "\u20B9" : "$";
       const detail = document.createElement("span");
       detail.className = "txn-detail";
-      detail.textContent = `${Math.abs(t.quantity)} ${t.symbol} @ $${t.price.toFixed(2)}`;
+      detail.textContent = `${Math.abs(t.quantity)} ${t.symbol} @ ${sym}${t.price.toFixed(2)}`;
 
-      row.append(date, side, detail);
+      const value = document.createElement("span");
+      value.className = "txn-value";
+      value.textContent = `${sym}${(Math.abs(t.quantity) * t.price).toFixed(2)}`;
+
+      row.append(date, side, detail, value);
       this.host.append(row);
     }
   }

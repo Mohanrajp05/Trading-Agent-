@@ -16,4 +16,6 @@ dependencies = [
     "gradio>=6.20.0",
     "pandas>=3.0.5",
     "plotly>=6.9.0",
+    "yfinance>=0.2.0",
+    "pytz",
 ]

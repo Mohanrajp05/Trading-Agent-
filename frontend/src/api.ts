@@ -14,6 +14,7 @@ export interface Holding {
   avg_cost: number;
   market_value: number;
   unrealized_pnl: number;
+  currency: string;
 }
 
 export interface Transaction {
@@ -22,6 +23,7 @@ export interface Transaction {
   price: number;
   timestamp: string;
   rationale: string;
+  currency: string;
 }
 
 export interface TimePoint {

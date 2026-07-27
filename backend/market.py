@@ -1,13 +1,23 @@
-"""Share prices from the Massive market data API, or a simulator when no key is set.
+"""Share prices from multiple markets: US (Massive API) and India (yfinance).
 
-Set MASSIVE_API_KEY to use live data. Without it, prices come from market_simulator
+Set MASSIVE_API_KEY to use live US data. Without it, prices come from market_simulator
 so the whole trading floor still runs out of the box.
+
+Indian stocks (.NS/.BO suffix) use yfinance for live data.
 """
 
 import os
+from datetime import datetime
 from dotenv import load_dotenv
+import pytz
 from massive import RESTClient
 from .market_simulator import simulated_price
+from .market_india import (
+    is_indian_stock,
+    get_indian_share_price,
+    get_indian_market_status,
+    INDIAN_SUFFIXES,
+)
 
 load_dotenv(override=True)
 
@@ -38,8 +48,25 @@ plan_tier = 0
 
 
 def get_share_price(symbol: str) -> float:
-    """Return the current price for a symbol, from Massive or the simulator."""
+    """
+    Return the current price for a symbol.
+    
+    Supports:
+    - US stocks: AAPL, GOOGL, MSFT, TSLA, AMZN, META, NVDA
+    - Indian stocks (NSE): RELIANCE.NS, TCS.NS, INFY.NS, HDFCBANK.NS
+    - Indian stocks (BSE): RELIANCE.BO, TCS.BO, INFY.BO
+    """
     global massive_unavailable
+    
+    # Check for Indian stocks first
+    if is_indian_stock(symbol):
+        try:
+            return get_indian_share_price(symbol)
+        except Exception as e:
+            print(f"Indian market error for {symbol}: {e}")
+            return 0.0
+    
+    # US market logic
     if massive_api_key and not massive_unavailable:
         try:
             return get_share_price_massive(symbol)
@@ -63,12 +90,51 @@ def get_share_price_massive(symbol: str) -> float:
     raise RuntimeError(f"No Massive price available for {symbol}")
 
 
-def is_market_open() -> bool:
-    """Whether the US market is open; True on simulated data or if Massive is unreachable."""
-    if not massive_api_key or massive_unavailable:
-        return True
+def _is_us_market_open() -> bool:
+    """US market hours: 9:30 AM - 4:00 PM ET, Monday-Friday."""
     try:
-        client = RESTClient(massive_api_key)
-        return client.get_market_status().market == "open"
+        et = pytz.timezone("US/Eastern")
+        now = datetime.now(pytz.utc).astimezone(et)
+        if now.weekday() >= 5:
+            return False
+        minutes = now.hour * 60 + now.minute
+        return 9 * 60 + 30 <= minutes <= 16 * 60
     except Exception:
-        return True
+        return False
+
+
+def is_market_open() -> bool:
+    """Whether any supported market is open."""
+    try:
+        status = get_indian_market_status()
+        if status["status"] == "open":
+            return True
+    except Exception:
+        pass
+
+    if massive_api_key and not massive_unavailable:
+        try:
+            client = RESTClient(massive_api_key)
+            return client.get_market_status().market == "open"
+        except Exception:
+            pass
+
+    return _is_us_market_open()
+
+
+def get_supported_markets() -> dict:
+    """Return information about supported markets"""
+    return {
+        "US": {
+            "exchanges": ["NYSE", "NASDAQ", "AMEX"],
+            "suffix": "",
+            "currency": "USD",
+            "data_source": "Massive API" if massive_api_key else "Simulator",
+        },
+        "India": {
+            "exchanges": ["NSE", "BSE"],
+            "suffix": ".NS / .BO",
+            "currency": "INR",
+            "data_source": "Yahoo Finance",
+        },
+    }
