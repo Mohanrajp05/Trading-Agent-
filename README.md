@@ -13,6 +13,7 @@ pinned: false
 ### Commands to run the project ###
 
 Create new terminals and add these commands 
+
 Backend 
 
 cd "C:\Users\Mohan Raj P\Agent week 6\6_mcp"
